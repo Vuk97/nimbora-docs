@@ -219,7 +219,7 @@ export default function Home() {
         </DocsHeader>
         <hr />
         <Row>
-          <Link style={{ textDecoration: 'none' }} href={'https://discord.gg/ybKVQUWb4s'}>
+          <Link style={{ textDecoration: 'none' }} href={'https://discord.gg/AaUszuNc'}>
             <CenterCard>
               <Discord style={{ width: '48px', height: '48px' }} />
               <div>
@@ -228,7 +228,7 @@ export default function Home() {
               </div>
             </CenterCard>
           </Link>
-          <Link style={{ textDecoration: 'none' }} href={'https://gov.uniswap.org/'}>
+          <Link style={{ textDecoration: 'none' }} href={'https://medium.com/spaceshard'}>
             <CenterCard>
               <MessageCircle style={{ width: '48px', height: '48px' }} />
               <div>
