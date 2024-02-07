@@ -191,12 +191,7 @@ export default function Home() {
             <HideMedium>
             </HideMedium>
           </div>
-          {/* <StyledTitleImage
-            sources={{
-              light: useBaseUrl('/static/img/docusaurus-social-card.png'),
-              dark: useBaseUrl('/static/img/docusaurus-social-card.png'),
-            }}
-          /> */}
+          
           <Row>
             {actions.map((action) => (
               
@@ -254,16 +249,3 @@ export default function Home() {
   );
 }
 
-{/* export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
-} */}

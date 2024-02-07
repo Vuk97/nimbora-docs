@@ -46,13 +46,6 @@ const config = {
           editUrl:
             'https://github.com/0xSpaceShard/nimbora_yields_l2',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -64,21 +57,34 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/Social media icon.png',
       navbar: {
-        title: 'My Site',
+        title: 'Nimbora Docs',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Nimbora Logo',
+          src: 'img/icon 2.svg',
+          srcDark: 'img/icon 1.svg',
+
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'doc',
+            docId: 'contracts/overview',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Contracts',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'sdk/overview',
+            position: 'left',
+            label: 'SDK',
+          },
+          {
+            type: 'doc',
+            docId: 'ux/overview',
+            position: 'left',
+            label: 'UX',
+          },
           {
             href: 'https://github.com/0xSpaceShard/nimbora_yields_l2',
             label: 'GitHub',
@@ -87,15 +93,23 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Contracts',
+                to: '/docs/contracts/overview',
               },
+              {
+                label: 'SDK',
+                to: '/docs/sdk/overview',
+              },
+              {
+                label: 'UX',
+                to: '/docs/ux/overview',
+              }
             ],
           },
           {
@@ -107,11 +121,11 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/AaUszuNc',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/Nimbora_',
               },
             ],
           },
@@ -119,17 +133,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/0xSpaceShard',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Nimbora, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
