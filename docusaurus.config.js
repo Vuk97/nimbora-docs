@@ -81,9 +81,9 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'ux/overview',
+            docId: 'strategies/overview',
             position: 'left',
-            label: 'UX',
+            label: 'Strategies',
           },
           {
             href: 'https://github.com/0xSpaceShard/nimbora_yields_l2',
@@ -107,8 +107,8 @@ const config = {
                 to: '/docs/sdk/overview',
               },
               {
-                label: 'UX',
-                to: '/docs/ux/overview',
+                label: 'Strategies',
+                to: '/docs/strategies/overview',
               }
             ],
           },
