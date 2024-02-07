@@ -17,7 +17,7 @@ export const actions = [
   {
     title: 'Get Started',
     icon: Info,
-    to: '/docs/intro',
+    to: '/docs/contracts/overview',
     text: 'Learn how to start using Nimbora',
   },
   {
