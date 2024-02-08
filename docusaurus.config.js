@@ -68,22 +68,22 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'contracts/overview',
+            to: 'docs/contracts/architecture/overview',
             position: 'left',
             label: 'Contracts',
+            className: 'V3_active'
           },
           {
-            type: 'doc',
-            docId: 'sdk/overview',
+            to: 'docs/sdks/sdk/overview',
             position: 'left',
             label: 'SDK',
+            className: 'V3_active'
           },
           {
-            type: 'doc',
-            docId: 'strategies/overview',
+            to: 'docs/strategies/overview',
             position: 'left',
             label: 'Strategies',
+            className: 'V3_active'
           },
           {
             href: 'https://github.com/0xSpaceShard/nimbora_yields_l2',
@@ -99,17 +99,17 @@ const config = {
             title: 'Docs',
             items: [
               {
+                to: 'docs/contracts/architecture/overview',
                 label: 'Contracts',
-                to: '/docs/contracts/overview',
               },
               {
+                to: 'docs/sdks/sdk/overview',
                 label: 'SDK',
-                to: '/docs/sdk/overview',
               },
               {
+                to: 'docs/strategies/overview',
                 label: 'Strategies',
-                to: '/docs/strategies/overview',
-              }
+              },
             ],
           },
           {
