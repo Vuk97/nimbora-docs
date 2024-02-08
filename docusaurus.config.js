@@ -99,17 +99,17 @@ const config = {
             title: 'Docs',
             items: [
               {
+                to: 'docs/contracts/architecture/overview',
                 label: 'Contracts',
-                to: '/docs/contracts/overview',
               },
               {
+                to: 'docs/sdks/sdk/overview',
                 label: 'SDK',
-                to: '/docs/sdk/overview',
               },
               {
+                to: 'docs/strategies/overview',
                 label: 'Strategies',
-                to: '/docs/strategies/overview',
-              }
+              },
             ],
           },
           {
