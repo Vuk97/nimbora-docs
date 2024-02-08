@@ -1,12 +1,8 @@
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import Discord from '@site/static/img/discord.svg'
 import GitHub from '@site/static/img/github.svg'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
 import styled from '@emotion/styled';
 import ThemedImage from '@theme/ThemedImage';
 

@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Nimbora Yield Dex',
   tagline: 'Yield Dexing on Starknet',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/Social media icon.png',
 
   // Set the production url of your site here
   url: 'https://docs.nimbora.io/',
