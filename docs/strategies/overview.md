@@ -4,4 +4,4 @@ title: Overview
 sidebar_position: 1
 ---
 
-# Nimbora UX
+# Nimbora Strategies
