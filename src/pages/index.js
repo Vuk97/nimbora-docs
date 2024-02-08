@@ -11,6 +11,12 @@ import { ArrowUpRight as LinkIcon, BookOpen, HelpCircle, Info, MessageCircle } f
 
 export const actions = [
   {
+    title: 'What is Nimbora',
+    icon: HelpCircle,
+    to: '/docs/concepts/overview',
+    text: 'Learn about Nimbora and how to interact with it L1 and L2 strategies',
+  },
+  {
     title: 'Nimbora Smart Contracts',
     icon: Info,
     to: '/docs/contracts/architecture/overview',
@@ -22,12 +28,6 @@ export const actions = [
     to: '/docs/sdks/sdk/overview',
     text: 'Learn how to integrate Nimbora with your application',
   },
-  {
-    title: 'What is Nimbora',
-    icon: HelpCircle,
-    to: '/docs/strategies/overview',
-    text: 'Learn about Nimbora and how to interact with it L1 and L2 strategies',
-  }
 ]
 
 const IconWrapper = styled.div`

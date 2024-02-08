@@ -68,6 +68,12 @@ const config = {
         },
         items: [
           {
+            to: 'docs/concepts/overview',
+            position: 'left',
+            label: 'Concepts',
+            className: 'V3_active'
+          },
+          {
             to: 'docs/contracts/architecture/overview',
             position: 'left',
             label: 'Contracts',
@@ -77,12 +83,6 @@ const config = {
             to: 'docs/sdks/sdk/overview',
             position: 'left',
             label: 'SDK',
-            className: 'V3_active'
-          },
-          {
-            to: 'docs/strategies/overview',
-            position: 'left',
-            label: 'Strategies',
             className: 'V3_active'
           },
           {
@@ -99,16 +99,16 @@ const config = {
             title: 'Docs',
             items: [
               {
+                to: 'docs/concepts/overview',
+                label: 'Concepts',
+              },
+              {
                 to: 'docs/contracts/architecture/overview',
                 label: 'Contracts',
               },
               {
                 to: 'docs/sdks/sdk/overview',
                 label: 'SDK',
-              },
-              {
-                to: 'docs/strategies/overview',
-                label: 'Strategies',
               },
             ],
           },

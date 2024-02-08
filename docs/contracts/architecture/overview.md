@@ -19,32 +19,5 @@ Nimbora Sync Yield allows users to access L1 yields from L2 without delay, addit
 
 ![arch](/content/arch.png)
 
-## L2 Contracts
 
-### Pooling Manager
 
-The pooling manager plays an intermediate role with L2 strategies and L1 communication. The idea is to significantly reduce gas costs on L1 by hashing all of the data and mutualizing bridge transfer. He is also responsible for registering all available strategies and is the only one able to process reports. although he is processing all at once, he is also able to process only one report individually so a broken strategy has no impact on others.
-
-### Pooling Factory
-
-The pooling factory is the contract used to deploy new “strategy packages”: token, and token manager, those contracts are the same for any strategy.
-
-### N-yield Token Manager
-
-The token manager contains all the logic for token accountability through a strategy report, setting the share price at each epoch. It is also the entry point for deposit and withdraw, only this contract can mint or burn tokens.
-
-### N-yield Token
-
-The Nimbora yield token represents the l1 strategy yield-bearing token, increasing in value at each epoch. Once minted, it can be used in DeFi through the Starknet ecosystem.
-
-## L1 Contracts
-
-### Pooling Manager
-
-The pooling manager plays an intermediate role with L1 strategies and L2 communication. The contract receives a payload of data, containing all the information required to cover L2 strategy requests: deposit more in a strategy, inform the underlying NAV, or withdraw some assets.
-
-### Strategy handler
-
-The strategy handler is an adapter used to interact with strategies, it receives data of payload similar for each handler and processes the request before returning the new NAV of the strategy and potentially some ETH to bridge.
-
-Nimbora Yield DEX off-chain services allow for the indexing and processing L1 and L2 reports. For more details, please check this link.
