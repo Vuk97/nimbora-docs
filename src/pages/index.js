@@ -17,16 +17,16 @@ export const actions = [
     text: 'Learn about Nimbora and how to interact with it L1 and L2 strategies',
   },
   {
-    title: 'Nimbora Smart Contracts',
-    icon: Info,
-    to: '/docs/contracts/architecture/overview',
-    text: 'Learn how to start using Nimbora smart contracts',
-  },
-  {
     title: 'Integrate with Nimbora',
     icon: BookOpen,
     to: '/docs/sdks/sdk/overview',
     text: 'Learn how to integrate Nimbora with your application',
+  },
+  {
+    title: 'Nimbora Smart Contracts',
+    icon: Info,
+    to: '/docs/contracts/architecture/overview',
+    text: 'Learn how to start using Nimbora smart contracts',
   },
 ]
 

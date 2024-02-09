@@ -1,6 +1,7 @@
 ---
 id: l2-contracts
 title: L2 Contracts
+sidebar_position: 2
 ---
 
 # L2 Contracts
