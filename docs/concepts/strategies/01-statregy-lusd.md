@@ -4,15 +4,17 @@ title: Borrow LUSD
 sidebar_position: 2
 ---
 
-# **Unlocking Quick LUSD Minting: A Step-by-Step Guide for Nimbora Users**
+# **Unlocking Quick LUSD Minting: A Step-by-Step Guide for Liquity Users**
 
 ![Group 145.png](/content/strategy_lusd/Group_145.png)
 
-### The world of DeFi can be swift and complex, but Nimbora is here to simplify the process for you!
+### LUSD Strategy
 
-In this guide, we'll show you how to mint $LUSD quickly on Starknet, streamlining your DeFi experience and maximizing efficiency.
+This strategy allows users to borrow LUSD, a stablecoin pegged to the U.S. dollar, using their collateral. The process begins by depositing collateral into the Nimbora platform. Once the collateral is deposited and locked, users can borrow against it according to the platform's loan-to-value ratio. This strategy is beneficial for users who want to leverage their assets without selling them. However, users must monitor their collateral value to avoid liquidation. If the value of the collateral falls below certain thresholds, the system may automatically liquidate the assets to repay the loan.
 
 To get started, make sure you have a Starknet-compatible wallet, such as Argent X or Braavos. If you plan to bridge your assets to use as collateral, ensure you have an Ethereum-compatible wallet e.g. Metamask.
+
+### How to interact
 
 **Step 1: Visit Nimbora's Front End**
 Visit Nimbora's front end at [https://www.nimbora.io/](https://www.nimbora.io/)  to connect Starknet to Ethereum, reducing gas costs for your interactions with Ethereum. 
