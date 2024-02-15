@@ -18,7 +18,7 @@ At the moment, Nimbora supports compatibility with [Argent X wallet](https://www
 
 ## Transaction processing and batching
 
-The transaction is processed when the Starknet transaction is accepted on Ethereum, which typically takes around 12 hours. Once your transaction is accepted on Layer 1 (L1), it gets batched with other transactions and is processed within a maximum of an hour (the fastest processing time is 1 minute). If you see that the batch is in the processing stage, it means that it was sent to L1 but hasn't been accepted yet. This acceptance process also requires 12 hours. Once the batch is processed, its status will change to 'processed'.
+When the Nimbora Pooling Manager contract receives requests, it opens a new batch and adds those requests until the batch is full. Once the bach is full, the contract will empack all the requests and send them to the L1 Pooling contract. This message will take some time to be verified on L1 depending on the network congestion, but it should not take more than 12h. Once the block is validated on L1, the message is ready to be consumend by the L1 Pooling Contract.
 
 ## Where can I get help?
 
