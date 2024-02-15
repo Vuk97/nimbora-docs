@@ -30,6 +30,43 @@ export const actions = [
   },
 ]
 
+export const dAppGuides = [
+  {
+    title: 'Token Manager',
+    to: '/docs/sdks/sdk/guides/token_manager',
+    text: 'Learn how to use the Token Manager contract',
+  },
+  {
+    title: 'Deposit',
+    to: '/docs/sdks/sdk/guides/deposit',
+    text: 'Learn how to deposit funds into Nimbora smart contracts',
+  },
+  {
+    title: 'Withdraw',
+    to: '/docs/sdks/sdk/guides/withdraw',
+    text: 'Learn how to withdraw funds from Nimbora smart contracts',
+  },
+]
+
+export const strategyGuides = [
+  {
+    title: 'Liquity Strategy',
+    to: '/docs/concepts/strategies/lusd',
+    text: 'Learn how to borrow LUSD',
+  },
+  {
+    title: 'sDAI Strategy',
+    to: '/docs/concepts/strategies/sdai',
+    text: 'Learn how to deposit DAI',
+  },
+  {
+    title: 'Liquid Staking',
+    to: '/docs/concepts/strategies/liquidStaking',
+    text: 'Learn how to stake ETH',
+  }
+
+]
+
 const IconWrapper = styled.div`
   width: 32px;
   height: 32px;
@@ -76,6 +113,29 @@ const Row = styled.div`
   }
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
+  }
+`
+
+const TwoRow = styled(Row)`
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 48px;
+
+  @media (max-width: 960px) {
+    grid-template-columns: 1fr;
+  }
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+`
+
+const LinkRow = styled.div`
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  a h3 {
+    color: black !important;
   }
 `
 
@@ -208,6 +268,55 @@ export default function Home() {
             ))}
           </Row>
         </DocsHeader>
+        <TwoRow
+          style={{
+            gap: '56px',
+            marginTop: '4rem',
+          }}
+        >
+          <div>
+            <h2>Learn how to use Nimbora Strategies</h2>
+            <p>Explore these guided tutorials to get started interacting with different startegies</p>
+            <div>
+              {strategyGuides.map((action) => (
+                <Link style={{ textDecoration: 'none' }} key={action.title} to={action.to}>
+                  <Card key={action.title} style={{ marginBottom: '1rem' }}>
+                    <LinkRow>
+                      <div style={{ display: 'flex', alignItems: 'center' }}>
+                        <h3 style={{ marginBottom: '0rem' }}>{action.title}</h3>
+                      </div>
+                      <LinkIconWrapper>
+                        <LinkIcon />
+                      </LinkIconWrapper>
+                    </LinkRow>
+                    <p style={{ marginBottom: '0rem', fontWeight: 300 }}>{action.text}</p>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div>
+            <h2>Integrate your dAPP</h2>
+            <p>Explore these guided tutorials to get started integrating with Nimbora in your dApp.</p>
+            <div>
+              {dAppGuides.map((action) => (
+                <Link style={{ textDecoration: 'none' }} key={action.title} to={action.to}>
+                  <Card key={action.title} style={{ marginBottom: '1rem' }}>
+                    <LinkRow>
+                      <div style={{ display: 'flex', alignItems: 'center' }}>
+                        <h3 style={{ marginBottom: '0rem' }}>{action.title}</h3>
+                      </div>
+                      <LinkIconWrapper>
+                        <LinkIcon />
+                      </LinkIconWrapper>
+                    </LinkRow>
+                    <p style={{ marginBottom: '0rem', fontWeight: 300 }}>{action.text}</p>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </TwoRow>
         <hr />
         <Row>
           <Link style={{ textDecoration: 'none' }} href={'https://discord.gg/AaUszuNc'}>
