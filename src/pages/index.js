@@ -244,8 +244,6 @@ export default function Home() {
             }}
           >
             <h1 style={{ fontWeight: 600 }}> Welcome to Nimbora Docs</h1>
-            <HideMedium>
-            </HideMedium>
           </div>
           
           <Row>
