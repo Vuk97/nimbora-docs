@@ -1,6 +1,7 @@
 ---
 id: l1-contracts
 title: L1 Contracts
+sidebar_position: 1
 ---
 
 # L1 Contracts
