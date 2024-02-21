@@ -39,3 +39,8 @@
 body {
   font-family: 'Nimbora', sans-serif;
 }
+.card-image {
+  width: 19%;
+  height: auto;
+  object-fit: cover;
+}

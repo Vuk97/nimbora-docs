@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Nimbora Yield Dex',
+  title: 'Nimbora Docs',
   tagline: 'Yield Dexing on Starknet',
   favicon: 'img/Social media icon.png',
 
@@ -70,7 +70,7 @@ const config = {
           {
             to: 'docs/concepts/overview',
             position: 'left',
-            label: 'Concepts',
+            label: 'About Nimbora',
             className: 'V3_active'
           },
           {
@@ -86,7 +86,7 @@ const config = {
             className: 'V3_active'
           },
           {
-            href: 'https://github.com/0xSpaceShard/nimbora_yields_l2',
+            href: 'https://github.com/0xSpaceShard/nimbora-yields-l2-public',
             label: 'GitHub',
             position: 'right',
           },
@@ -96,42 +96,79 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Devs',
             items: [
               {
-                to: 'docs/concepts/overview',
-                label: 'Concepts',
-              },
-              {
                 to: 'docs/contracts/architecture/overview',
-                label: 'Contracts',
+                label: 'Smart Contracts',
               },
               {
                 to: 'docs/sdks/sdk/overview',
                 label: 'SDK',
               },
+              {
+                to: 'https://github.com/0xSpaceShard/nimbora-yields-l2-public',
+                label: 'Github',
+              },
+              {
+                to: 'https://discord.gg/feJJnkmYzc',
+                label: 'Ask questions',
+              }
+              
+            ],
+          },
+          {
+            title: 'About',
+            items: [
+              {
+                label: 'What is Nimbora',
+                href: '/docs/concepts/overview',
+              },
+              {
+                label: 'Nimbora Integrations',
+                href: 'https://www.nimbora.io/integrations',
+              },
+              {
+                label: 'Blogs',
+                href: 'https://www.medium.com/@Nimbora',
+              },
+              {
+                label: 'dAPP',
+                href: 'https://app.nimbora.io/',
+              },
+              {
+                label: 'Brand Assets',
+                href: 'https://www.nimbora.io/toolkit',
+              }
             ],
           },
           {
             title: 'Community',
             items: [
               {
+                label: 'Twitter',
+                href: 'https://twitter.com/Nimbora_',
+              },
+              {
                 label: 'Discord',
                 href: 'https://discord.gg/AaUszuNc',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/Nimbora_',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/nimbora/',
               },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/0xSpaceShard',
+                label: 'Starknet Forum',
+                href: 'https://community.starknet.io/t/nimboras-defi-revolution-enhancing-accessibility-affordability-and-composability/104298'
               },
+              {
+                label: 'Zealy',
+                href: 'https://zealy.io/c/nimbora'
+              },
+              {
+                label: 'Galxe',
+                href: 'https://galxe.com/Nimbora'
+              }
             ],
           },
         ],

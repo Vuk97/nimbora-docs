@@ -1,12 +1,17 @@
 import Link from '@docusaurus/Link';
-import Discord from '@site/static/img/discord.svg'
-import GitHub from '@site/static/img/github.svg'
+import Discord from '@site/static/img/discord.svg';
+import GitHub from '@site/static/img/github.svg';
+import Medium from '@site/static/img/medium.svg';
+import Bora from '@site/static/img/bora.svg';
+import Nimi from '@site/static/img/nimi.svg';
+import Spacebbit from '@site/static/img/spacebbit.svg';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import styled from '@emotion/styled';
 import ThemedImage from '@theme/ThemedImage';
+import '../css/custom.css';
 
-import { ArrowUpRight as LinkIcon, BookOpen, HelpCircle, Info, MessageCircle } from 'react-feather';
+import { ArrowUpRight as LinkIcon, BookOpen, HelpCircle, Info } from 'react-feather';
 
 
 export const actions = [
@@ -15,27 +20,25 @@ export const actions = [
     icon: HelpCircle,
     to: '/docs/concepts/overview',
     text: 'Learn about Nimbora and how to interact with it L1 and L2 strategies',
-  },
-  {
-    title: 'Integrate with Nimbora',
-    icon: BookOpen,
-    to: '/docs/sdks/sdk/overview',
-    text: 'Learn how to integrate Nimbora with your application',
+    image: Spacebbit
   },
   {
     title: 'Nimbora Smart Contracts',
     icon: Info,
     to: '/docs/contracts/architecture/overview',
     text: 'Learn how to start using Nimbora smart contracts',
+    image: Bora
   },
+  {
+    title: 'Integrate with Nimbora',
+    icon: BookOpen,
+    to: '/docs/sdks/sdk/overview',
+    text: 'Learn how to integrate Nimbora with your application',
+    image: Nimi
+  }
 ]
 
 export const dAppGuides = [
-  {
-    title: 'Token Manager',
-    to: '/docs/sdks/sdk/guides/token_manager',
-    text: 'Learn how to use the Token Manager contract',
-  },
   {
     title: 'Deposit',
     to: '/docs/sdks/sdk/guides/deposit',
@@ -46,11 +49,16 @@ export const dAppGuides = [
     to: '/docs/sdks/sdk/guides/withdraw',
     text: 'Learn how to withdraw funds from Nimbora smart contracts',
   },
+  {
+    title: 'Token Manager',
+    to: '/docs/sdks/sdk/guides/token_manager',
+    text: 'Learn how to use the Token Manager contract',
+  },
 ]
 
 export const strategyGuides = [
   {
-    title: 'Liquity Strategy',
+    title: 'LUSD Strategy',
     to: '/docs/concepts/strategies/lusd',
     text: 'Learn how to borrow LUSD',
   },
@@ -231,7 +239,7 @@ const StyledIcon = styled.div`
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout title={'Nimbora Documentation'} description='Technical documentation for Nimbora '>
+    <Layout title={'Nimbora Docs | Nimbora Yield Dex'} description='Welcome to Nimbora Docs! Learn more about how to use Nimbora. Get informed about Nimbora mechanism, SDK and more'>
       <Container>
       <DocsHeader>
           <div
@@ -255,6 +263,7 @@ export default function Home() {
                       <IconWrapper>
                         <action.icon style={{ width: '24px' }} />
                       </IconWrapper>
+                    <action.image className="card-image" alt={action.title} />
                       <LinkIconWrapper>
                         <LinkIcon />
                       </LinkIconWrapper>
@@ -326,11 +335,13 @@ export default function Home() {
               </div>
             </CenterCard>
           </Link>
-          <Link style={{ textDecoration: 'none' }} href={'https://medium.com/spaceshard'}>
+          <Link style={{ textDecoration: 'none' }} href={'https://medium.com/@Nimbora'}>
             <CenterCard>
-              <MessageCircle style={{ width: '48px', height: '48px' }} />
+              <StyledIcon>
+                <Medium style={{ width: '48px', height: '48px' }} />
+              </StyledIcon>
               <div>
-                <h3>Forum</h3>
+                <h3>Medium</h3>
                 <p>Discuss governance and more.</p>
               </div>
             </CenterCard>
