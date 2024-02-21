@@ -1,12 +1,16 @@
 ---
 id: overview
-title: Overview
+title: About Nimbora
 sidebar_position: 1
 ---
 
 # Nimbora Overview
 
-Nimbora is a platform that offers you the opportunity to interact with your favorite Layer 1 (L1) protocols at a fraction of the cost of Layer 2 (L2) solutions.
+Nimbora is a 1-click DeFi pooling product, incubated by the [SpaceShard team](https://www.spaceshard.io/). 
+
+It is a platform that offers you the opportunity to interact with your favorite Layer 1 (L1) protocols at a fraction of the cost of Layer 2 (L2) solutions. The idea behind it is scaling L1 DeFi via L2 execution seamlessly while super-low fees. The technology behind Nimbora is Zero-Knowledge Rollups, currently Starknet - a permissionless decentralized ZK-Rollup that operates as an L2 network over Ethereum. To put it simply, Nimbora scales L1 DeFi products completely trustlessly using rollups.
+
+You can learn more about Nimbora by following us on [Medium](https://medium.com/@Nimbora), [Twitter](https://twitter.com/nimbora_io), or by joining our [Discord group](https://discord.gg/feJJnkmYzc).
 
 ## L2 vs L1: Benefits of using Nimbora
 
