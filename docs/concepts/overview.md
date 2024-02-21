@@ -22,7 +22,9 @@ At the moment, Nimbora supports compatibility with [Argent X wallet](https://www
 
 ## Transaction processing and batching
 
-When the Nimbora Pooling Manager contract receives requests, it opens a new batch and adds those requests until the batch is full. Once the bach is full, the contract will empack all the requests and send them to the L1 Pooling contract. This message will take some time to be verified on L1 depending on the network congestion, but it should not take more than 12h. Once the block is validated on L1, the message is ready to be consumend by the L1 Pooling Contract.
+When the Nimbora [L2 Pooling Manager](/docs/contracts/architecture/L2_arch.md#pooling-manager) contract receives a requests, it opens a new batch and accumulates those requests until the batch is full. Once the batch is full, the contract will empack all the requests and send them to the [L1 Pooling Manager](/docs/contracts/architecture/L1_arch.md#pooling-manager) contract. This message will take some time to be verified on L1 depending on the network congestion, but it should not take more than 12h. Once the block is validated on L1, the message is ready to be consumed by the L1 Pooling Contract.
+
+When consuming the message, the L1 Pooling Manager will get the assets to be handled from the Starkgate Bridge and deposit them within the strategies. Finally, the L1 Pooling Manager will generate a report to inform the L2 Pooling Manager that the deposits were made correctly.
 
 ## Where can I get help?
 

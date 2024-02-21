@@ -8,11 +8,11 @@ sidebar_position: 2
 
 ### Pooling Manager
 
-The pooling manager plays an intermediate role with L1 strategies and L2 communication. The contract receives a payload of data, containing all the information required to cover L2 strategy requests: deposit more in a strategy, inform the underlying NAV, or withdraw some assets.
+The pooling manager plays an intermediate role with L1 strategies and L2 communication. The contract receives L2 user's requests, to deposit or withdraw their assets from the strategies. Also, it generates [reports](/docs/concepts/reports.md) based on the user's actions on the different strategies and sends this information back to the [L2 Pooling Manager](/docs/contracts/architecture/L2_arch.md#pooling-manager).
 
-### Strategy handler
+### Strategy
 
-The strategy handler is an adapter used to interact with strategies, it receives data of payload similar for each handler and processes the request before returning the new NAV of the strategy and potentially some ETH to bridge.
+The Strategy contract handles commands from the L1 Pooling Manager and connects it to the targeted strategies. There will be one Strategy Contract addapter for each strategy Nimbora supports. This design enables full scalability regardless of the amount of strategies the platform handles or future integrations.
 
 Nimbora Yield DEX off-chain services allow for the indexing and processing L1 and L2 reports. For more details, please check this link.
 
