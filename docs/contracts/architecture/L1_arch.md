@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ### Pooling Manager
 
-The pooling manager plays an intermediate role with L1 strategies and L2 communication. The contract receives L2 user's requests, to deposit or withdraw their assets from the strategies. Also, it generates [reports](/docs/contracts/reports.md) based on the user's actions on the different strategies and sends this information back to the [L2 Pooling Manager](/docs/contracts/architecture/L2_arch.md#pooling-manager).
+The pooling manager plays an intermediate role with L1 strategies and L2 communication. The contract receives L2 user's requests, to deposit or withdraw their assets from the strategies. Also, it generates [reports](/docs/contracts/guides/reports) based on the user's actions on the different strategies and sends this information back to the [L2 Pooling Manager](/docs/contracts/architecture/L2_arch.md#pooling-manager).
 
 ### Strategy
 
