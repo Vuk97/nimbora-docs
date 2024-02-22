@@ -1,5 +1,5 @@
 ---
-id: lusd_strategy
+id: lusd
 title: Borrow LUSD
 sidebar_position: 3
 ---

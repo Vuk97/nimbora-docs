@@ -1,5 +1,5 @@
 ---
-id: sdai_strategy
+id: sdai
 title: Deposit sDAI
 sidebar_position: 3
 ---
