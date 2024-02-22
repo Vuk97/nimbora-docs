@@ -41,7 +41,7 @@ To get started, make sure you have a Starknet-compatible wallet, such as Argent 
 ### How to interact
 
 **Step 1: Visit Nimbora's Front End**
-Visit Nimbora's front end at [https://www.nimbora.io/](https://www.nimbora.io/)  to connect Starknet to Ethereum, reducing gas costs for your interactions with Ethereum. 
+Visit Nimbora's front end at [https://www.nimbora.io/](https://www.nimbora.io/)  to connect [Starknet](/docs/concepts/overview#starknet) to Ethereum, reducing gas costs for your interactions with Ethereum. 
 
 ![Cookies.png](/content/strategy_lusd/Cookies.png)
 
