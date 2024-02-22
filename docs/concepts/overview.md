@@ -16,6 +16,16 @@ You can learn more about Nimbora by following us on [Medium](https://medium.com
 
 Starknet is a Layer-2 network that utilizes zk-STARKs technology to enhance Ethereum transactions. It aims to make transactions faster, cheaper, and more secure. Official Starknet token is [STRK](https://www.starknet.io/en/content/claiming-your-strk), launched on Feb 20, 2024.
 
+:::note
+Key features:
+- Low costs
+- Developer-friendly
+- Speed and efficiency
+- CVM
+:::
+
+More info at [Starknet website](https://www.starknet.io/en) or check [Spaceshard's blog](https://www.spaceshard.io/blog/learning-starknet-community-edu-resources) to learn about Starknet.
+
 ## L2 vs L1: Benefits of using Nimbora
 
 The main benefit of using Nimbora is the decreases in gas fees, up to 7x compared with Ethereum mainnet. This significant reduction in gas fees is achieved through the utilization of innovative Layer 2 solutions. These solutions perform most transactions off-chain, only settling the final state on the Ethereum mainnet. This drastically reduces the number of transactions that need to be processed on the congested Ethereum network, thereby reducing overall gas fees. This makes transactions on Nimbora more affordable and accessible for all users, fostering a more inclusive DeFi ecosystem.
