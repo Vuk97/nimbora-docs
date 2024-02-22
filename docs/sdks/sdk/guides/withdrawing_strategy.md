@@ -10,6 +10,10 @@ First, you call the `requestWithdrawal` function, specifying the number of share
 
 After the withdrawal request is processed and finalized on the StarkNet network, you can claim the withdrawal by calling the `claimWithdrawal` function which moves the tokens back to your Ethereum account.
 
+:::info
+The **Underlying** asset represent the tokens users will use to deposit within a strategy. For example, the underlying token for the sDAI strategy is DAI.
+:::
+
 ### Request Withdrawal
 
 To make a withdrawal request from the token manager, users need to invoke the `requestWithdrawal` function. This function requires the user to specify the amount of shares they wish to exchange for the underlying tokens. 

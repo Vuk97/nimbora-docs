@@ -1,12 +1,36 @@
 ---
-id: lusd
+id: lusd_strategy
 title: Borrow LUSD
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # **Unlocking Quick LUSD Minting: A Step-by-Step Guide for Liquity Users**
 
 ![Group 145.png](/content/strategy_lusd/Group_145.png)
+
+<details>
+  <summary>What is LUSD</summary>
+
+  [LUSD Docs](https://docs.liquity.org/faq/general#what-are-lusd-and-lqty)
+
+  - LUSD, a stablecoin pegged to the USD, serves as the payment medium for loans in the Liquity protocol, offering redemption against collateral at face value.
+
+  - For details on its stability mechanism, further information is available.
+
+</details>
+
+<details>
+  <summary>What is Liquity</summary>
+
+  [Liquity Docs](https://docs.liquity.org/)
+
+  - Liquity offers decentralized, interest-free loans in LUSD against Ether collateral, requiring a minimum 110% collateral ratio.
+
+  - Loan security is enhanced by a Stability Pool with LUSD and collective backing from borrowers as ultimate guarantors.
+
+  - The protocol is non-custodial, immutable, and operates without governance.
+
+</details>
 
 ### LUSD Strategy
 

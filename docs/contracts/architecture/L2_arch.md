@@ -14,11 +14,11 @@ This design enables isolation between startegies thus, if one strategy report fa
 
 ### Pooling Factory
 
-The Pooling Factory is a contract able to deploy new Strategies on L2. When it does, it generates two contracts for each strategy. One Token Manager contract and on Token contract. Also, it makes sure that this two newly deployed contracts are linked to the correct strategy on L1, enabling users to interact with it.
+The Pooling Factory is a contract able to deploy new Strategies on L2. When it does, it generates two contracts for each strategy. One Token Manager contract and one Token contract. Also, it makes sure that this two newly deployed contracts are linked to the correct strategy on L1, enabling users to interact with it.
 
 ### Token Manager
 
-The token manager contains all the logic for strategy accountability. This is achieved through the strategy [reports](/docs/contracts/guides/reports). Setting the share price at each epoch and working as an entry point for deposit and withdraw the Token Manager is the principal contract users will interact with in order to use Nimbora.
+The Token Manager contains all the logic for strategy accountability. This is achieved through the strategy [reports](/docs/contracts/guides/reports). Setting the share price at each epoch and working as an entry point for deposit and withdraw, the Token Manager is the principal contract users will interact with in order to use Nimbora.
 
 ### Token
 
