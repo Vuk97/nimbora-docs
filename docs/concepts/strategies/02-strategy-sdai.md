@@ -4,7 +4,9 @@ title: Deposit sDAI
 sidebar_position: 3
 ---
 
-# Background
+# sDAI Strategy
+
+Nimbora empowers users to leverage their DAI holdings by depositing them into an sDAI vault, which is a specialized financial vehicle. This depositing action allows their DAI to be put to work, generating potential profits over time. The approach combines the security of DAI, a stablecoin, with the revenue-generating power of DeFi strategies. This mechanism is designed to provide users with a more effective way to maximize the potential return on their DAI investments.
 
 <details>
   <summary>What is sDai</summary>
@@ -29,10 +31,6 @@ sidebar_position: 3
 
     - This enhancement introduces new features to the protocol, promoting broader asset acceptance and flexibility.  
 </details>
-
-# sDAI Strategy
-
-Nimbora empowers users to leverage their DAI holdings by depositing them into an sDAI vault, which is a specialized financial vehicle. This depositing action allows their DAI to be put to work, generating potential profits over time. The approach combines the security of DAI, a stablecoin, with the revenue-generating power of DeFi strategies. This mechanism is designed to provide users with a more effective way to maximize the potential return on their DAI investments.
 
 ## How to deposit
 
