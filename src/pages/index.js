@@ -19,7 +19,7 @@ export const actions = [
     title: 'What is Nimbora',
     icon: HelpCircle,
     to: '/docs/concepts/overview',
-    text: 'Learn about Nimbora and how to interact with L1 & L2 strategies',
+    text: 'Learn how to interact with L1 & L2 strategies on Nimbora',
     image: Spacebbit
   },
   {
