@@ -4,23 +4,14 @@ title: Borrow LUSD
 sidebar_position: 3
 ---
 
-# **Unlocking Quick LUSD Minting: A Step-by-Step Guide for Liquity Users**
+# LUSD Strategy
 
-![Group 145.png](/content/strategy_lusd/Group_145.png)
+**This strategy allows users to borrow LUSD**, a stablecoin pegged to the U.S. dollar, using their collateral. The process begins by depositing collateral into the Nimbora platform. Once the collateral is deposited and locked, users can borrow against it according to the platform's loan-to-value ratio. This strategy is beneficial for users who want to leverage their assets without selling them. However, users must monitor their collateral value to avoid liquidation. If the value of the collateral falls below certain thresholds, the system may automatically liquidate the assets to repay the loan.
 
-<details>
-  <summary>What is LUSD</summary>
-
-  [LUSD Docs](https://docs.liquity.org/faq/general#what-are-lusd-and-lqty)
-
-  - LUSD, a stablecoin pegged to the USD, serves as the payment medium for loans in the Liquity protocol, offering redemption against collateral at face value.
-
-  - For details on its stability mechanism, further information is available.
-
-</details>
+To get started, make sure you have a Starknet-compatible wallet, such as Argent X or Braavos. If you plan to bridge your assets to use as collateral, ensure you have an Ethereum-compatible wallet e.g. Metamask.
 
 <details>
-  <summary>What is Liquity</summary>
+  <summary>What is Liquity?</summary>
 
   [Liquity Docs](https://docs.liquity.org/)
 
@@ -32,11 +23,56 @@ sidebar_position: 3
 
 </details>
 
-### LUSD Strategy
+<details>
+  <summary>What is LUSD?</summary>
 
-This strategy allows users to borrow LUSD, a stablecoin pegged to the U.S. dollar, using their collateral. The process begins by depositing collateral into the Nimbora platform. Once the collateral is deposited and locked, users can borrow against it according to the platform's loan-to-value ratio. This strategy is beneficial for users who want to leverage their assets without selling them. However, users must monitor their collateral value to avoid liquidation. If the value of the collateral falls below certain thresholds, the system may automatically liquidate the assets to repay the loan.
+  [LUSD Docs](https://docs.liquity.org/faq/general#what-are-lusd-and-lqty)
 
-To get started, make sure you have a Starknet-compatible wallet, such as Argent X or Braavos. If you plan to bridge your assets to use as collateral, ensure you have an Ethereum-compatible wallet e.g. Metamask.
+  - LUSD, a stablecoin pegged to the USD, serves as the payment medium for loans in the Liquity protocol, offering redemption against collateral at face value.
+
+  - For details on its stability mechanism, further information is available.
+
+</details>
+
+<details>
+  <summary>What is the LUSD contract on Starknet?</summary>
+
+  - LUSD contract on Starknet is: 0x070a76fd48ca0ef910631754d77dd822147fe98a569b826ec85e3c33fde586ac
+
+  - All official Liquity contracts can be found [here](https://docs.liquity.org/documentation/resources#contract-addresses).
+
+</details>
+
+<details>
+  <summary>How much LUSD can I borrow?</summary>
+
+  - The maximum is currently capped at 1.75 ETH, but this will change over time.
+
+</details>
+
+<details>
+  <summary>Do I really pay no interests on Liquity?</summary>
+
+  - Yes, really! Liquity charges no interest, ever.
+
+  - You pay only a one-off fee when opening the loan. This fee is almost always 0.50% but can go slightly higher at times. Read more about it [here](https://docs.liquity.org/faq/borrowing).
+
+</details>
+
+<details>
+  <summary>I don't have enough LUSD to pay my debt, what can I do?</summary>
+
+  - If you don’t have enough LUSD in your account you can use the [Starkgate](https://starkgate.starknet.io/) bridge to bridge the LUSD amount required to pay your debt and get back your collateral.
+
+</details>
+
+<details>
+  <summary>Step-by-Step Guide for LUSD strategy</summary>
+
+  - [Link to the guide](https://medium.com/@Nimbora/unlocking-quick-lusd-minting-a-step-by-step-guide-for-nimbora-users-1dc0b876a122)
+
+</details>
+
 
 ### How to interact
 
