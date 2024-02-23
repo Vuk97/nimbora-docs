@@ -13,24 +13,31 @@ To get started, make sure you have a Starknet-compatible wallet, such as Argent 
 <details>
   <summary>What is Liquity?</summary>
 
-  [Liquity Docs](https://docs.liquity.org/)
-
   - Liquity offers decentralized, interest-free loans in LUSD against Ether collateral, requiring a minimum 110% collateral ratio.
 
   - Loan security is enhanced by a Stability Pool with LUSD and collective backing from borrowers as ultimate guarantors.
 
   - The protocol is non-custodial, immutable, and operates without governance.
 
+  - It is highly secure, has several audits, and tops Defi Safety’s security list.
+
+  - Additional resources about Liquity: 
+    - [Website](https://www.liquity.org/)
+    - [Docs](https://docs.liquity.org/)
+    - [Analytics](https://dune.com/liquity/liquity)
+    - [Liquity on Twittter](https://twitter.com/LiquityProtocol)
+
 </details>
 
 <details>
   <summary>What is LUSD?</summary>
 
-  [LUSD Docs](https://docs.liquity.org/faq/general#what-are-lusd-and-lqty)
-
   - LUSD, a stablecoin pegged to the USD, serves as the payment medium for loans in the Liquity protocol, offering redemption against collateral at face value.
 
-  - For details on its stability mechanism, further information is available.
+  - LUSD can be only minted against ETH, making it very resilient and independent of any centralized parties. Due to this it is a very popular treasury asset, but also across protocols and LP pools on mainnet and many L2’s.
+
+  - Additional resources about LUSD
+    - [Docs](https://docs.liquity.org/faq/general#what-are-lusd-and-lqty).
 
 </details>
 
@@ -66,12 +73,9 @@ To get started, make sure you have a Starknet-compatible wallet, such as Argent 
 
 </details>
 
-<details>
-  <summary>Step-by-Step Guide for LUSD strategy</summary>
-
-  - [Link to the guide](https://medium.com/@Nimbora/unlocking-quick-lusd-minting-a-step-by-step-guide-for-nimbora-users-1dc0b876a122)
-
-</details>
+:::tip
+[Here](https://medium.com/@Nimbora/unlocking-quick-lusd-minting-a-step-by-step-guide-for-nimbora-users-1dc0b876a122) you can find a step-by-step guide for LUSD strategy
+:::
 
 
 ### How to interact
