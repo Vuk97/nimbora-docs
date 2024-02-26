@@ -38,18 +38,17 @@ At the moment, Nimbora supports compatibility with [Argent X wallet](https://www
 
 Please be aware that **there is still no official Nimbora token launched,** nor a public sale of Nimbora tokens by any entity! Be alert for scams around any token claims and provisions, including fake links and accounts impersonating Nimbora. Make sure to follow the information in our official channels only:
 
-Twitter: https://twitter.com/nimbora_
+[Twitter](https://twitter.com/nimbora_)
 
-Discord: https://discord.gg/feJJnkmYzc
+[Discord](https://discord.gg/feJJnkmYzc)
 
-Website: https://www.nimbora.io/
+[Website](https://www.nimbora.io/)
 
-Medium: https://medium.com/@Nimbora
+[Medium](https://medium.com/@Nimbora)
+
+[LinkedIn]( https://www.linkedin.com/company/nimbora/)
 
 Email subscription: link coming soon
-
-LinkedIn: https://www.linkedin.com/company/nimbora/
-
 :::
 
 ## Transaction processing and batching
