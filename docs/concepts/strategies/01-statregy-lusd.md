@@ -74,5 +74,5 @@ To get started, make sure you have a Starknet-compatible wallet, such as Argent 
 </details>
 
 :::tip
-[Here](https://medium.com/@Nimbora/unlocking-quick-lusd-minting-a-step-by-step-guide-for-nimbora-users-1dc0b876a122) you can find a step-by-step guide for LUSD strategy
+[Here](https://medium.com/@Nimbora/unlocking-quick-lusd-minting-a-step-by-step-guide-for-nimbora-users-1dc0b876a122) you can find a step-by-step guide for borrowing LUSD.
 :::

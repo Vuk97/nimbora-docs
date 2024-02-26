@@ -6,24 +6,26 @@ sidebar_position: 3
 
 # wstETH Strategy
 
-Nimbora provides an opportunity for users to take advantage of their ETH assets by contributing them to a Liquid Staking vault, a unique financial structure. Through this depositing process, users can put their ETH to work, potentially creating profits as time progresses. This strategy merges the stability of ETH with the income-generating capacity of DeFi strategies. It is developed to offer users an optimized method to significantly increase potential returns from their ETH investments.
+**This startegy provides an opportunity** for users to **take advantage of their ETH assets** by contributing them to a Liquid Staking vault, a unique financial structure. Through this depositing process, users can put their ETH to work, potentially creating profits as time progresses. This strategy merges the stability of ETH with the income-generating capacity of DeFi strategies. It is developed to offer users an optimized method to significantly increase potential returns from their ETH investments.
 
 <details>
-  <summary>What is stETH</summary>
+  <summary>What is wstETH</summary>
 
-    [stETH Docs](https://docs.lido.fi/#liquid-staking)
-
-    - stETH represents a token you receive when you stake Ethereum (ETH) through the Lido platform, allowing you to earn staking rewards while keeping your assets liquid.
+    - wstETH represents a token you receive when you stake Ethereum (ETH) through the Lido platform, allowing you to earn staking rewards while keeping your assets liquid.
 
     - It mirrors the value of your staked ETH plus accrued staking rewards, enabling its use in various DeFi applications without locking your assets.
 
-    - stETH can be traded, used as collateral for loans, or utilized in yield farming, providing flexibility and liquidity not available with traditional ETH staking.
+    - wstETH can be traded, used as collateral for loans, or utilized in yield farming, providing flexibility and liquidity not available with traditional ETH staking.
+
+    - More about wstETH:
+
+      - [Liquid Staking Docs](https://docs.lido.fi/#liquid-staking)
+
+      - [wstETH concepts](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth)
 </details>
 
 <details>
   <summary>What is Lido</summary>
-
-    [Lido Docs](https://docs.lido.fi/#what-is-lido)
 
     - Lido enables earning on digital tokens with liquidity maintained for DeFi application use, through network-specific staking pools.
     
@@ -32,6 +34,13 @@ Nimbora provides an opportunity for users to take advantage of their ETH assets 
     - Lido is governed by a DAO, which is responsible for managing protocol parameters and selecting node operators.
 
     - Primarily focusing on Ethereum, Lido's governance is implemented through the ERC20 LDO token, with st[token]s representing users' staked assets and accumulated rewards.
+
+    - More about Lido:
+      - [Webside](https://lido.fi/)
+      - [Docs](https://docs.lido.fi/#what-is-lido)
+      - [Analytics](https://dune.com/lido/lido-dashboards-catalogue)
+      - [Lido on Twitter](https://twitter.com/lidofinance)
+
 
 </details>
 
