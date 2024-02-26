@@ -19,7 +19,7 @@ You can declare a contract only once on each network. So if you don't do any mod
 
 | Contract Name                                                                                                                    | Class Hash                                          |
 |----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| [Pooling Manager](https://sepolia.starkscan.co/class/0x384ec344325e87627749e26d1c7c4eeaa086e9b61af2cdffd8f8c7ad83656d0)          | Register and communication between L1-L2 strategies |
-| [Token Manager STRK](https://sepolia.starkscan.co/class/0x01185df466dcbc2c8875ef5c01323a4e73cf5fd8cd87dbfb29ba090b21f2af6f)      | Strategy accountability                             |
-| [Nimbora Token](https://sepolia.starkscan.co/class/0x04ab68869fc27e129d82ec18383fac7c265e32301274aad398ea793418fcdffd)           | L1 strategy yield-bearing token                     |
-| [Factory](https://sepolia.starkscan.co/class/0xfcce853530b62df10c59b398a60aafc28bf7c9a447b83a89df0ca65bcf4b41)                   | Deploy new strategies                               |
+| [Pooling Manager](https://sepolia.starkscan.co/contract/0x384ec344325e87627749e26d1c7c4eeaa086e9b61af2cdffd8f8c7ad83656d0)          | Register and communication between L1-L2 strategies |
+| [Token Manager STRK](https://sepolia.starkscan.co/contract/0x01185df466dcbc2c8875ef5c01323a4e73cf5fd8cd87dbfb29ba090b21f2af6f)      | Strategy accountability                             |
+| [Nimbora Token](https://sepolia.starkscan.co/contract/0x04ab68869fc27e129d82ec18383fac7c265e32301274aad398ea793418fcdffd)           | L1 strategy yield-bearing token                     |
+| [Factory](https://sepolia.starkscan.co/contract/0xfcce853530b62df10c59b398a60aafc28bf7c9a447b83a89df0ca65bcf4b41)                   | Deploy new strategies                               |
