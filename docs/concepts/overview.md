@@ -34,6 +34,24 @@ The main benefit of using Nimbora is the decreases in gas fees, up to 7x compare
 
 At the moment, Nimbora supports compatibility with [Argent X wallet](https://www.argent.xyz/argent-x/) and [Braavos wallet](https://braavos.app/). Argent X is a smart wallet designed to provide a simple and secure way to manage and invest digital assets. On the other hand, Braavos wallet is a decentralized wallet known for its user-friendly interface and high-level security features. The integration of these wallets with Nimbora allows users to conveniently interact with preferred Layer 1 protocols at a significantly reduced cost. Nimbora is committed to enhancing user experience and thus, plans to integrate more wallets in the near future.
 
+:::important
+
+Please be aware that **there is still no official Nimbora token launched,** nor a public sale of Nimbora tokens by any entity! Be alert for scams around any token claims and provisions, including fake links and accounts impersonating Nimbora. Make sure to follow the information in our official channels only:
+
+Twitter: https://twitter.com/nimbora_
+
+Discord: https://discord.gg/feJJnkmYzc
+
+Website: https://www.nimbora.io/
+
+Medium: https://medium.com/@Nimbora
+
+Email subscription: link coming soon
+
+LinkedIn: https://www.linkedin.com/company/nimbora/
+
+:::
+
 ## Transaction processing and batching
 
 When the Nimbora [L2 Pooling Manager](/docs/contracts/architecture/L2_arch.md#pooling-manager) contract receives a requests, it opens a new batch and accumulates those requests until the batch is full. Once the batch is full, the contract will empack all the requests and send them to the [L1 Pooling Manager](/docs/contracts/architecture/L1_arch.md#pooling-manager) contract. This message will take some time to be verified on L1 depending on the network congestion, but it should not take more than 12h. Once the block is validated on L1, the message is ready to be consumed by the L1 Pooling Contract.
