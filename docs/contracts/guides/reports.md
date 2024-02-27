@@ -16,6 +16,6 @@ With this information, the L1 Pooling Manager can communicate with the Starkgate
 
 ## L2 Reports
 
-From the L2 Pooling Manager perspective, reports represent incoming messages from L1. This data is used to process and update L2 strategies (Token Manager and Token contracts) according to the new L1 strategy status. Once the L1 data integrity is verified, enables the contract to fetch bridge assets in order to, later, transfers it to users and updates the strategy data.
+From the L2 Pooling Manager perspective, reports represent incoming messages from L1. This data is used to process and update L2 strategies (Token Manager and Token contracts) according to the new L1 strategy status. Once the L1 data integrity is verified, it enables the contract to fetch bridge assets and later transfer them to users and update the strategy data.
 
 This report is crucial for synchronizing L1 strategies data with the L2 contract state and it ensures only valid data is processed, all while contract's state remains consistent with L1.
