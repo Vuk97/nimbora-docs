@@ -11,12 +11,28 @@ sidebar_position: 3
 <details>
   <summary>What is sDai</summary>
 
-    - Acts as a tokenized layer over the DSR, compatible with ERC4626, facilitating real-time share to asset conversions.
+    - sDAI is an ERC-4626 representation of DAI, offering users the ability to earn yield via the Maker protocol while maintaining full flexibility over their funds.
 
-    - Maintains conversion accuracy regardless of the duration since the last update to the pot.
+    - Users can convert between DAI and sDAI not through a DEX, but directly by depositing into or withdrawing from the DSR module.
+
+    - Interaction with sDAI is facilitated through a specific frontend platform, allowing for straightforward deposit, withdrawal, and other operations with sDAI.
 
     - More about sDAI:
-      - [Docs](https://docs.makerdao.com/)
+      - [Docs](https://docs.spark.fi/defi-infrastructure/sdai-overview/dsr-and-sdai#what-is-sdai)
+
+</details>
+
+<details>
+  <summary>What is DSR</summary>
+
+    - The Dai Savings Rate (DSR) is a feature within the Maker Protocol that enables Dai holders to earn savings by actively engaging with the DSR contract.
+
+    - To earn savings, users must manually transfer Dai from their wallet to the Maker Protocol, with the assurance that Dai can be instantly redeemed without liquidity constraints, but only back to the original depositing account.
+
+    - Integration of DSR functionality by custodians, decentralized exchanges, wallets, or dapps is advantageous as it allows any user to earn savings on their Dai holdings.
+
+    - More about sDAI:
+      - [Docs](https://docs.spark.fi/defi-infrastructure/sdai-overview/dsr-and-sdai#what-is-dsr)
 
 </details>
 
