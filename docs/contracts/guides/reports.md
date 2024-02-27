@@ -10,7 +10,13 @@ The reports exist within both L1 and L2 Pooling Manager contracts and they are t
 
 ## L1 Reports
 
-From the L1 Pooling Manager perspective, reports represent messages received by the L1 Pooling Manager contract and they contain relevant data regarding the strategy status. More specifically, they contain the L1 strategy address, L1 net asset value (deposited asset's value), the amount to be deposited or withdrawn (to/from the strategy) and finally the Status of the L1 strategy process.
+From the L1 Pooling Manager perspective, reports represent messages received by the L1 Pooling Manager contract and they contain relevant data regarding the strategy status.
+
+More specifically, they contain the following:
+- L1 strategy address.
+- L1 net asset value (deposited asset's value).
+- The amount to be deposited or withdrawn (to/from the strategy).
+- Status of the L1 strategy process.
 
 With this information, the L1 Pooling Manager can communicate with the Starkgate bridge to fetch and bridge assets to and from L2. Additionally, it can target the strategy it needs to interact with.
 
