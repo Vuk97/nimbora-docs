@@ -58,7 +58,7 @@ sidebar_position: 3
 <details>
   <summary>What is MakerDAO</summary>
 
-    - MakerDAO aims to stabilize the crypto economy using a dual-token system: Dai for stability and MKR for governance, emphasizing the necessity of a decentralized stablecoin for digital financial benefits.
+    - MakerDAO aims to stabilize the crypto economy using a dual-token system: Dai for stability and MKR token for governance, emphasizing the necessity of a decentralized stablecoin for digital financial benefits.
 
     - It champions decentralized finance (DeFi) accessibility, striving for economic empowerment and equal access to the global financial market for all.
 
