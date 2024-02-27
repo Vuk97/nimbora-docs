@@ -9,7 +9,7 @@ sidebar_position: 3
 **This strategy allows users to leverage their DAI holdings** by depositing them into an sDAI vault, which is a specialized financial vehicle. This depositing action allows their DAI to be put to work, generating potential profits over time. The approach combines the security of DAI, a stablecoin, with the revenue-generating power of DeFi strategies. This mechanism is designed to provide users with a more effective way to maximize the potential return on their DAI investments.
 
 <details>
-  <summary>What is sDai</summary>
+  <summary>What is sDAI</summary>
 
     - sDAI is an ERC-4626 representation of DAI, offering users the ability to earn yield via the Maker protocol while maintaining full flexibility over their funds.
 
