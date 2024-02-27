@@ -45,7 +45,7 @@ sidebar_position: 3
 
     - sDAI, a yield-bearing stablecoin within Spark, represents DAI in the Dai Savings Rate (DSR) module, funneling revenue from the Maker protocol back to DAI holders.
 
-    - Spark features SparkConduits for direct liquidity transfer from Maker to various protocols and is governed by SparkDAO, a subDAO of Maker Allocator, with its governance launch set for May 2024.
+    - Spark features SparkConduits, enabling direct liquidity transfer from Maker to various protocols. It operates under the governance of SparkDAO, a subDAO of Maker Allocator, scheduled to launch its governance in May 2024.
 
     - More about Spark:
       - [Website](https://spark.fi/)
