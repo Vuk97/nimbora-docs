@@ -46,7 +46,7 @@ Please be aware that **there is still no official Nimbora token launched,** nor 
 
 [Medium](https://medium.com/@Nimbora)
 
-[LinkedIn]( https://www.linkedin.com/company/nimbora/)
+[LinkedIn](https://www.linkedin.com/company/nimbora/)
 
 Email subscription: link coming soon
 :::
