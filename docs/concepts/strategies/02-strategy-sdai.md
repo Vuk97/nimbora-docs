@@ -31,8 +31,27 @@ sidebar_position: 3
 
     - Integration of DSR functionality by custodians, decentralized exchanges, wallets, or dapps is advantageous as it allows any user to earn savings on their Dai holdings.
 
-    - More about sDAI:
+    - More about DSR:
       - [Docs](https://docs.spark.fi/defi-infrastructure/sdai-overview/dsr-and-sdai#what-is-dsr)
+
+</details>
+
+<details>
+  <summary>What is Spark</summary>
+
+    - Spark aims to enhance the DAI ecosystem as part of the MakerDAO community, positioning itself as a next-generation DeFi infrastructure.
+
+    - It introduces SparkLend, a DAI-focused money market protocol that integrates liquidity from Maker and other top DeFi protocols.
+
+    - sDAI, a yield-bearing stablecoin within Spark, represents DAI in the Dai Savings Rate (DSR) module, funneling revenue from the Maker protocol back to DAI holders.
+
+    - Spark features SparkConduits for direct liquidity transfer from Maker to various protocols and is governed by SparkDAO, a subDAO of Maker Allocator, with its governance launch set for May 2024.
+
+    - More about Spark:
+      - [Website](https://spark.fi/)
+      - [Docs](https://docs.spark.fi/)
+      - [Analytics](https://dune.com/facundol2/spark-protocol)
+      - [Spark on Twitter](https://twitter.com/sparkdotfi)
 
 </details>
 
@@ -50,7 +69,6 @@ sidebar_position: 3
     - More about Maker:
       - [Website](https://makerdao.com/en/)
       - [Docs](https://docs.makerdao.com/)
-      - [Analytics](https://dune.com/facundol2/spark-protocol)
       - [MakerDAO on Twitter](https://twitter.com/MakerDAO)
 
 </details>
