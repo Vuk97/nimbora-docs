@@ -18,8 +18,7 @@ sidebar_position: 3
 
     - To use sDAI and take advantage of its benefits, you can go to the SparkLend website and interact with it directly from there.
 
-    - More about sDAI:
-      - [Docs](https://docs.spark.fi/defi-infrastructure/sdai-overview/dsr-and-sdai#what-is-sdai)
+    - More about [sDAI](https://docs.spark.fi/defi-infrastructure/sdai-overview/dsr-and-sdai#what-is-sdai):
 
 ### What is DSR
 
@@ -29,8 +28,7 @@ sidebar_position: 3
 
     - Integration of DSR functionality by custodians, decentralized exchanges, wallets, or dapps is advantageous as it allows any user to earn savings on their Dai holdings.
 
-    - More about DSR:
-      - [Docs](https://docs.spark.fi/defi-infrastructure/sdai-overview/dsr-and-sdai#what-is-dsr)
+    - More about [DSR](https://docs.spark.fi/defi-infrastructure/sdai-overview/dsr-and-sdai#what-is-dsr):
 
 ### What is Spark
 

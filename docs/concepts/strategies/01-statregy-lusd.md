@@ -33,8 +33,7 @@ To get started, make sure you have a Starknet-compatible wallet, such as Argent 
 
   - LUSD can be only minted against ETH, making it very resilient and independent of any centralized parties. Due to this it is a very popular treasury asset, but also across protocols and LP pools on mainnet and many L2’s.
 
-  - Additional resources about LUSD
-    - [Docs](https://docs.liquity.org/faq/general#what-are-lusd-and-lqty).
+  - Additional resources about [LUSD](https://docs.liquity.org/faq/general#what-are-lusd-and-lqty)
 
 
 ### What is the LUSD contract on Starknet?
