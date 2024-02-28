@@ -12,6 +12,8 @@ It is a platform that offers you the opportunity to interact with your favorite 
 
 You can learn more about Nimbora by following us on [Medium](https://medium.com/@Nimbora), [Twitter](https://twitter.com/nimbora_io), or by joining our [Discord group](https://discord.gg/feJJnkmYzc).
 
+You can also check out our founder's talk from ETHDenver about the [experience of building Nimbora: a Cross-Chain Yield DEX on Starknet](https://twitter.com/i/status/1762609002435727749)
+
 ## Starknet
 
 Starknet is a Layer-2 network that utilizes zk-STARKs technology to enhance Ethereum transactions. It aims to make transactions faster, cheaper, and more secure. Official Starknet token is [STRK](https://www.starknet.io/en/content/claiming-your-strk), launched on Feb 20, 2024.

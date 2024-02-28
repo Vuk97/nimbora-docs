@@ -4,7 +4,7 @@ title: Starknet
 sidebar_position: 1
 ---
 
-# Understanding Risks in Starknet
+# Understanding Risks Associated with Starknet
 
 Starknet, a Layer 2 scaling solution for Ethereum, offers significant benefits in terms of transaction speed and cost. However, like any technology, it comes with its own set of risks. Here, we break down some of these risks in simple terms.
 

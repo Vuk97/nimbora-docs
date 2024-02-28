@@ -4,7 +4,7 @@ title: sDAI
 sidebar_position: 3
 ---
 
-# Yield Generation
+# Understanding Risks Associated with sDAI
 
 When considering the use of sDAI through platforms like SparkLend, it's crucial for users, especially those who are not deeply technical, to understand the associated risks. This guide aims to simplify the primary risk related to using sDAI in an accessible manner.
 

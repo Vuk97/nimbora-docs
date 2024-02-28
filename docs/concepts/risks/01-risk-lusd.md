@@ -4,7 +4,7 @@ title: Liquity LUSD
 sidebar_position: 2
 ---
 
-# Understanding the Risks and Mechanisms of Liquity
+# Understanding Risks Associated with Liquity
 
 Liquity is a decentralized borrowing protocol that allows users to take out loans against Ethereum collateral without paying interest. These loans are paid out in LUSD, a stablecoin pegged to the USD. While our previous guide covered the basic risks associated with using Liquity, this expanded guide incorporates insights from recent discussions about price stability and addresses concerns within the Liquity ecosystem.
 
