@@ -8,8 +8,7 @@ sidebar_position: 3
 
 **This startegy provides an opportunity** for users to **take advantage of their ETH assets** by contributing them to a Liquid Staking vault, a unique financial structure. Through this depositing process, users can put their ETH to work, potentially creating profits as time progresses. This strategy merges the stability of ETH with the income-generating capacity of DeFi strategies. It is developed to offer users an optimized method to significantly increase potential returns from their ETH investments.
 
-<details>
-  <summary>What is wstETH</summary>
+### What is wstETH
 
     - wstETH represents a token you receive when you stake Ethereum (ETH) through the Lido platform, allowing you to earn staking rewards while keeping your assets liquid.
 
@@ -22,10 +21,8 @@ sidebar_position: 3
       - [Liquid Staking Docs](https://docs.lido.fi/#liquid-staking)
 
       - [wstETH concepts](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth)
-</details>
 
-<details>
-  <summary>What is Lido</summary>
+### What is Lido
 
     - Lido enables earning on digital tokens with liquidity maintained for DeFi application use, through network-specific staking pools.
     
@@ -40,9 +37,6 @@ sidebar_position: 3
       - [Docs](https://docs.lido.fi/#what-is-lido)
       - [Analytics](https://dune.com/lido/lido-dashboards-catalogue)
       - [Lido on Twitter](https://twitter.com/lidofinance)
-
-
-</details>
 
 ## How to deposit
 

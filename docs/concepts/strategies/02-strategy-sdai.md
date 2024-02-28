@@ -8,22 +8,20 @@ sidebar_position: 3
 
 **This strategy allows users to leverage their DAI holdings** by depositing them into an sDAI vault, which is a specialized financial vehicle. This depositing action allows their DAI to be put to work, generating potential profits over time. The approach combines the security of DAI, a stablecoin, with the revenue-generating power of DeFi strategies. This mechanism is designed to provide users with a more effective way to maximize the potential return on their DAI investments.
 
-<details>
-  <summary>What is sDAI</summary>
+### What is sDAI
 
-    - sDAI is an ERC-4626 representation of DAI, offering users the ability to earn yield via the Maker protocol while maintaining full flexibility over their funds.
+    - sDAI is a special version of the DAI cryptocurrency that lets you earn extra money (yield) through the Maker protocol, while still being able to use your DAI as usual.
 
-    - Users can convert between DAI and sDAI not through a DEX, but directly by depositing into or withdrawing from the DSR module.
+    - You can easily convert your DAI to sDAI and back without needing to use a cryptocurrency exchange, by simply depositing or withdrawing from a specific feature called the Dai Savings Rate (DSR) module.
 
-    - Interaction with sDAI is facilitated through a specific frontend platform, allowing for straightforward deposit, withdrawal, and other operations with sDAI.
+    - With sDAI, you can do all the things you normally do with DAI, like transferring it to others, staking it to earn rewards, lending it, and more.
+
+    - To use sDAI and take advantage of its benefits, you can go to the SparkLend website and interact with it directly from there.
 
     - More about sDAI:
       - [Docs](https://docs.spark.fi/defi-infrastructure/sdai-overview/dsr-and-sdai#what-is-sdai)
 
-</details>
-
-<details>
-  <summary>What is DSR</summary>
+### What is DSR
 
     - The Dai Savings Rate (DSR) is a feature within the Maker Protocol that enables Dai holders to earn savings by actively engaging with the DSR contract.
 
@@ -34,10 +32,7 @@ sidebar_position: 3
     - More about DSR:
       - [Docs](https://docs.spark.fi/defi-infrastructure/sdai-overview/dsr-and-sdai#what-is-dsr)
 
-</details>
-
-<details>
-  <summary>What is Spark</summary>
+### What is Spark
 
     - Spark aims to enhance the DAI ecosystem as part of the MakerDAO community, positioning itself as a next-generation DeFi infrastructure.
 
@@ -53,10 +48,7 @@ sidebar_position: 3
       - [Analytics](https://dune.com/facundol2/spark-protocol)
       - [Spark on Twitter](https://twitter.com/sparkdotfi)
 
-</details>
-
-<details>
-  <summary>What is MakerDAO</summary>
+### What is MakerDAO
 
     - MakerDAO aims to stabilize the crypto economy using a dual-token system: Dai for stability and MKR token for governance, emphasizing the necessity of a decentralized stablecoin for digital financial benefits.
 
@@ -71,7 +63,6 @@ sidebar_position: 3
       - [Docs](https://docs.makerdao.com/)
       - [MakerDAO on Twitter](https://twitter.com/MakerDAO)
 
-</details>
 
 ## How to deposit
 

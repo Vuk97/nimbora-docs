@@ -1,6 +1,6 @@
 ---
 id: lusd
-title: Borrow LUSD
+title: Liquity LUSD
 sidebar_position: 3
 ---
 
@@ -10,8 +10,7 @@ sidebar_position: 3
 
 To get started, make sure you have a Starknet-compatible wallet, such as Argent X or Braavos. If you plan to bridge your assets to use as collateral, ensure you have an Ethereum-compatible wallet e.g. Metamask.
 
-<details>
-  <summary>What is Liquity?</summary>
+### What is Liquity?
 
   - Liquity offers decentralized, interest-free loans in LUSD against Ether collateral, requiring a minimum 110% collateral ratio.
 
@@ -27,10 +26,8 @@ To get started, make sure you have a Starknet-compatible wallet, such as Argent 
     - [Analytics](https://dune.com/liquity/liquity)
     - [Liquity on Twittter](https://twitter.com/LiquityProtocol)
 
-</details>
 
-<details>
-  <summary>What is LUSD?</summary>
+### What is LUSD?
 
   - LUSD, a stablecoin pegged to the USD, serves as the payment medium for loans in the Liquity protocol, offering redemption against collateral at face value.
 
@@ -39,39 +36,27 @@ To get started, make sure you have a Starknet-compatible wallet, such as Argent 
   - Additional resources about LUSD
     - [Docs](https://docs.liquity.org/faq/general#what-are-lusd-and-lqty).
 
-</details>
 
-<details>
-  <summary>What is the LUSD contract on Starknet?</summary>
+### What is the LUSD contract on Starknet?
 
   - LUSD contract on Starknet is: 0x070a76fd48ca0ef910631754d77dd822147fe98a569b826ec85e3c33fde586ac
 
   - All official Liquity contracts can be found [here](https://docs.liquity.org/documentation/resources#contract-addresses).
 
-</details>
 
-<details>
-  <summary>How much LUSD can I borrow?</summary>
+### How much LUSD can I borrow?
 
   - The maximum is currently capped at 1.75 ETH, but this will change over time.
 
-</details>
-
-<details>
-  <summary>Do I really pay no interests on Liquity?</summary>
+### Do I really pay no interests on Liquity?
 
   - Yes, really! Liquity charges no interest, ever.
 
   - You pay only a one-off fee when opening the loan. This fee is almost always 0.50% but can go slightly higher at times. Read more about it [here](https://docs.liquity.org/faq/borrowing).
 
-</details>
-
-<details>
-  <summary>I don't have enough LUSD to pay my debt, what can I do?</summary>
+### I don't have enough LUSD to pay my debt, what can I do?
 
   - If you don’t have enough LUSD in your account you can use the [Starkgate](https://starkgate.starknet.io/) bridge to bridge the LUSD amount required to pay your debt and get back your collateral.
-
-</details>
 
 :::tip
 [Here](https://medium.com/@Nimbora/unlocking-quick-lusd-minting-a-step-by-step-guide-for-nimbora-users-1dc0b876a122) you can find a step-by-step guide for borrowing LUSD.
