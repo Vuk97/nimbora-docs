@@ -1,12 +1,12 @@
 ---
 id: liquid_stake
-title: Liquid Staking
+title: wstETH Strategy
 sidebar_position: 4
 ---
 
 # Understanding Risks Associated with LIDO and Liquid Staking
 
-LIDO and its approach to liquid staking on Ethereum's Beacon Chain present an innovative way for users to earn staking rewards without locking up their assets. However, as with any investment, there are inherent risks involved. This guide aims to break down these risks in simple terms.
+[LIDO](https://lido.fi/) and its approach to liquid staking on Ethereum's Beacon Chain present an innovative way for users to earn staking rewards without locking up their assets. However, as with any investment, there are inherent risks involved. This guide aims to break down these risks in simple terms.
 
 ## Key Risks in LIDO and Liquid Staking
 

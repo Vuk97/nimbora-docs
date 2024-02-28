@@ -1,10 +1,8 @@
 ---
 id: lusd
-title: LUSD strategy
+title: LUSD Strategy
 sidebar_position: 3
 ---
-
-# LUSD Strategy
 
 **This strategy allows users to borrow LUSD**, a stablecoin pegged to the U.S. dollar, using their collateral. The process begins by depositing collateral into the Nimbora platform. Once the collateral is deposited and locked, users can borrow against it according to the platform's loan-to-value ratio. This strategy is beneficial for users who want to leverage their assets without selling them. However, users must monitor their collateral value to avoid liquidation. If the value of the collateral falls below certain thresholds, the system may automatically liquidate the assets to repay the loan.
 
