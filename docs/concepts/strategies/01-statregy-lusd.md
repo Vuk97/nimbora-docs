@@ -1,6 +1,6 @@
 ---
 id: lusd
-title: Liquity LUSD
+title: LUSD strategy
 sidebar_position: 3
 ---
 

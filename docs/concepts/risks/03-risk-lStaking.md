@@ -1,6 +1,6 @@
 ---
 id: liquid_stake
-title: Liquid Stake
+title: Liquid Staking
 sidebar_position: 4
 ---
 

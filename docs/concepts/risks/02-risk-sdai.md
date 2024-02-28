@@ -1,6 +1,6 @@
 ---
 id: sdai
-title: sDAI
+title: sDAI strategy
 sidebar_position: 3
 ---
 

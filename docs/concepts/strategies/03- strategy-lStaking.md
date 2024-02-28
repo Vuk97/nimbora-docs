@@ -1,10 +1,8 @@
 ---
 id: liquidStaking
-title: Liquid Staking
+title: wstETH strategy
 sidebar_position: 3
 ---
-
-# wstETH Strategy
 
 **This startegy provides an opportunity** for users to **take advantage of their ETH assets** by contributing them to a Liquid Staking vault, a unique financial structure. Through this depositing process, users can put their ETH to work, potentially creating profits as time progresses. This strategy merges the stability of ETH with the income-generating capacity of DeFi strategies. It is developed to offer users an optimized method to significantly increase potential returns from their ETH investments.
 
