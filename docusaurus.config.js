@@ -111,7 +111,7 @@ const config = {
                 label: 'Github',
               },
               {
-                to: 'https://discord.gg/feJJnkmYzc',
+                to: 'http://discord.gg/nimbora',
                 label: 'Ask questions',
               }
               
@@ -151,7 +151,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discord.gg/AaUszuNc',
+                href: 'http://discord.gg/nimbora',
               },
               {
                 label: 'LinkedIn',

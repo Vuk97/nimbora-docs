@@ -326,7 +326,7 @@ export default function Home() {
         </TwoRow>
         <hr />
         <Row>
-          <Link style={{ textDecoration: 'none' }} href={'https://discord.gg/AaUszuNc'}>
+          <Link style={{ textDecoration: 'none' }} href={'http://discord.gg/nimbora'}>
             <CenterCard>
               <Discord style={{ width: '48px', height: '48px' }} />
               <div>
