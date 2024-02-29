@@ -12,6 +12,8 @@ Nimbora is a 1-click DeFi pooling product, incubated by the SpaceShard team. It 
 
 You can learn more about Nimbora by following us on [Medium](https://medium.com/@Nimbora), [Twitter](https://twitter.com/nimbora_io), or by joining our [Discord group](https://discord.gg/feJJnkmYzc).
 
+You can also check out our founder's talk from ETHDenver about the [experience of building Nimbora: a Cross-Chain Yield DEX on Starknet](https://twitter.com/i/status/1762609002435727749)
+
 ### About the SDK
 
 This SDK helps you integrate with Nimbora YieldDex.
