@@ -1946,6 +1946,11 @@
     p-map "^4.0.0"
     webpack-sources "^3.2.2"
 
+"@snyk/protect@^1.1280.0":
+  version "1.1280.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1280.0.tgz#4353a5d5ef11b1f61e70fd602f4ce60fffac7b88"
+  integrity sha512-huyztYdA2UzgEG4JGlJBDs8mnQyHisXbH6Onv58nrIjFa2mPhsZx2l0/Ey6HKOKva+ZlpMYM3hz4+iboIlXfNw==
+
 "@svgr/babel-plugin-add-jsx-attribute@^6.5.1":
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-6.5.1.tgz#74a5d648bd0347bda99d82409d87b8ca80b9a1ba"
