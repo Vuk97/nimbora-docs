@@ -4,11 +4,15 @@ title: Withdrawing from strategy
 sidebar_position: 4
 ---
 
-A withdrawal involves transferring assets from the Layer 2 Token Manager contract on the StarkNet network to the Ethereum mainnet. This is a two-step operation. 
+A withdrawal involves transferring assets from the Layer 2 Token Manager contract on the [Starknet](/docs/concepts/overview#starknet) network to the Ethereum mainnet. This is a two-step operation. 
 
 First, you call the `requestWithdrawal` function, specifying the number of shares to be converted back into Ethereum tokens. These shares reflect the balance in the Token Manager contract. 
 
 After the withdrawal request is processed and finalized on the StarkNet network, you can claim the withdrawal by calling the `claimWithdrawal` function which moves the tokens back to your Ethereum account.
+
+:::info
+The **Underlying** asset represent the tokens users will use to deposit within a strategy. For example, the underlying token for the sDAI strategy is DAI.
+:::
 
 ### Request Withdrawal
 

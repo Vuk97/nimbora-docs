@@ -39,3 +39,13 @@
 body {
   font-family: 'Nimbora', sans-serif;
 }
+.card-image {
+  width: 10%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0s ease-in-out;
+}
+
+.card-image:hover {
+  transform: scale(1.2);
+}
