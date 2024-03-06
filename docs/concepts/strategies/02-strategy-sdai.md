@@ -64,7 +64,7 @@ sidebar_position: 3
 
 To interact with the sDAI strategy, you'll first need to connect to Nimbora. You can do this through available wallets such as Argent or Braavos. Ensure you have some DAI tokens in your wallet.
 
-![alt](/content/sdai_strategy/wallet_access_history.jpeg)
+![alt](/content/wallet_connect.jpeg)
 
 After connecting to Nimbora, find and select the sDAI strategy. Here, you'll see various metrics like Annual Percentage Rate (APR) and Total Value Locked (TVL). On the same screen, you'll find a place to enter the type and amount of tokens you want to deposit into the sDAI strategy. It will also display the amount of sDAI tokens you'll get once the transaction is completed.
 
@@ -81,6 +81,8 @@ Upon completing the transaction, users can track the status of their transaction
 If you've been using the sDAI strategy and decided that you want to take your assets back, you can do that. It's important to note though, Nimbora won't be able to process this withdrawal request for you. You'll have to do it yourself, but don't worry, the steps are simple.
 
 First, you need to decide on the amount you want to withdraw. This could be all or a portion of your assets. Once you've made up your mind, locate and click on the 'withdraw' button.
+
+![alt](/content/sdai_strategy/sdai_request_withdrawal.jpeg)
 
 When you click 'withdraw', your Wallet will guide you through the next steps. Just follow the instructions provided there to complete the transaction.
 

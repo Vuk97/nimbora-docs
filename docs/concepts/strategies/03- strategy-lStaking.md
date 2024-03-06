@@ -40,7 +40,7 @@ sidebar_position: 3
 
 To get started with the Liquid Staking strategy, your first step is to establish a connection with Nimbora. This connection can be facilitated through supported wallets, such as Argent or Braavos. Make sure you have a balance of ETH tokens in your chosen wallet.
 
-![alt](/content/sdai_strategy/wallet_access_history.jpeg)
+![alt](/content/wallet_connect.jpeg)
 
 Once you're connected to Nimbora, locate and choose the Liquid Staking strategy. This will show you key metrics such as Annual Percentage Rate (APR) and Total Value Locked (TVL). Also, there will be an option to input the kind and quantity of tokens you wish to contribute to the Liquid Staking strategy. The resulting quantity of wstETH tokens you're expected to receive upon completion of the transaction will be displayed.
 
@@ -48,13 +48,19 @@ Once you're connected to Nimbora, locate and choose the Liquid Staking strategy.
 
 The quantity of wstETH tokens you accumulate could fluctuate based on the specific asset you contribute.
 
+![alt](/content/liquid_strategy/wsteth_return.jpeg)
+
 Once you've chosen the token type and quantity for deposit, press the "deposit" button and adhere to the steps provided by your wallet (Argent or Braavos) to finalize the transaction.
+
+![alt](/content/liquid_strategy/wsteth_tx.jpeg)
 
 ## How to request a withdrawal
 
 If you've been participating in the Liquid Staking strategy and wish to retrieve your assets, it's entirely possible. However, it's crucial to understand that Nimbora can't handle the withdrawal request for you. You'll need to carry out the process yourself, but rest assured, it's straightforward.
 
 The first step is determining the amount you want to reclaim. This could be the total or a part of your assets. After deciding, find and select the 'withdraw' option.
+
+![alt](/content/liquid_strategy/wsteth_request_withdrawal.jpeg)
 
 Upon selecting 'withdraw', your Wallet will direct you through the subsequent stages. Simply adhere to the instructions therein to finalize the transaction.
 
