@@ -40,15 +40,13 @@ sidebar_position: 3
 
 To get started with the Liquid Staking strategy, your first step is to establish a connection with Nimbora. This connection can be facilitated through supported wallets, such as Argent or Braavos. Make sure you have a balance of ETH tokens in your chosen wallet.
 
-***Screenshot connect with wallet***
+![alt](/content/sdai_strategy/wallet_access_history.jpeg)
 
 Once you're connected to Nimbora, locate and choose the Liquid Staking strategy. This will show you key metrics such as Annual Percentage Rate (APR) and Total Value Locked (TVL). Also, there will be an option to input the kind and quantity of tokens you wish to contribute to the Liquid Staking strategy. The resulting quantity of wstETH tokens you're expected to receive upon completion of the transaction will be displayed.
 
-***Screenshot token selection and amount with expected wstETH return***
+![alt](/content/liquid_strategy/eth_deposit.jpeg)
 
-The quantity of wstETH tokens you accumulate could fluctuate based on the specific asset you contribute. While depositing the primary token, ETH, is always an option, other tokens can also be deposited by some users. In such instances, Nimbora will convert the deposited token into the primary asset, ETH.
-
-***Screenshot swap AVNU integration***
+The quantity of wstETH tokens you accumulate could fluctuate based on the specific asset you contribute.
 
 Once you've chosen the token type and quantity for deposit, press the "deposit" button and adhere to the steps provided by your wallet (Argent or Braavos) to finalize the transaction.
 

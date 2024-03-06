@@ -64,17 +64,17 @@ sidebar_position: 3
 
 To interact with the sDAI strategy, you'll first need to connect to Nimbora. You can do this through available wallets such as Argent or Braavos. Ensure you have some DAI tokens in your wallet.
 
-***Screenshot connect with wallet***
+![alt](/content/sdai_strategy/wallet_access_history.jpeg)
 
 After connecting to Nimbora, find and select the sDAI strategy. Here, you'll see various metrics like Annual Percentage Rate (APR) and Total Value Locked (TVL). On the same screen, you'll find a place to enter the type and amount of tokens you want to deposit into the sDAI strategy. It will also display the amount of sDAI tokens you'll get once the transaction is completed.
 
-***Screenshot token selection and amount with expected sDAI return***
+![alt](/content/sdai_strategy/sdai_return.jpeg)
 
-The number of sDAI tokens you receive can vary depending on the asset you deposit. You can always chose to deposit the underlying token which is DAI, but some users might want to deposit other tokens. In this case, Nimbora converts your deposit into the underlying asset.
+Finally, when you've selected the token amount to deposit, click on "deposit" and follow the prompts on your wallet (Argent or Braavos) to complete the transaction.
 
-***Screenshot swap AVNU integration***
+Upon completing the transaction, users can track the status of their transaction under the wallet view.
 
-Finally, when you've selected the type and amount of token to deposit, click on "deposit" and follow the prompts on your wallet (Argent or Braavos) to complete the transaction.
+![alt](/content/sdai_strategy/deposit_tx.jpeg)
 
 ## How to request a withdrawal
 
