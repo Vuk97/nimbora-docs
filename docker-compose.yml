@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  nimbora-docs:
+    build:
+      context: .
+    ports:
+      - ${PORT}:${PORT}
+    environment:
+      - EXCLUDE_FILES=${EXCLUDE_FILES}
+    command: ['yarn', 'start', '-h', '0.0.0.0', '-p', '${PORT}']
+    logging:
+      driver: 'json-file'
+      options:
+        tag: '{{.ImageName}}|{{.Name}}|{{.ImageFullID}}|{{.FullID}}'
+        max-size: '50m'
+        max-file: '100'
