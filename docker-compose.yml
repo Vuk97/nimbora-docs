@@ -1,6 +1,7 @@
 version: '3.9'
 services:
   nimbora-docs:
+    container_name: nimbora-docs_${BRANCH}
     build:
       context: .
     ports:
