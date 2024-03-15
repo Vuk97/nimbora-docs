@@ -19,6 +19,8 @@ jobs:
         node-version: '18'
 
     - name: Install and Build
+      env:
+        EXCLUDE_FILES: ${{ vars.EXCLUDE_FILES_MAIN }}
       run: |
         npm install
         npm run build
