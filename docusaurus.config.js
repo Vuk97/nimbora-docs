@@ -45,6 +45,12 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/0xSpaceShard/nimbora_yields_l2',
+          exclude: process.env.EXCLUDE_FILES === 'true' ? [
+            './concepts/strategies/02-strategy-sdai.md',
+            './concepts/strategies/03-strategy-lStaking.md',
+            './concepts/risks/02-risk-sdai.md',
+            './concepts/risks/03-risk-lStaking.md'
+          ] : []
         },
         theme: {
           customCss: './src/css/custom.css',
