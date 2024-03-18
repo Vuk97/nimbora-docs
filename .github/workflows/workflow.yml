@@ -1,0 +1,46 @@
+name: build-deploy
+
+on:
+  push:
+    branches:
+      - stage
+
+env:
+  working-directory: .
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref_name == ${{ github.ref_name }}
+    steps:
+      - name: Deploy the service to "${{ github.ref_name }}"
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets[format('SSH_HOST_{0}', github.ref_name)] }}
+          username: ${{ secrets[format('SSH_USER_{0}', github.ref_name)] }}
+          key: ${{ secrets[format('SSH_PRIVATE_KEY_{0}', github.ref_name)] }}
+          port: ${{ secrets[format('SSH_PORT_{0}', github.ref_name)] }}
+          script: |
+            SSH_NESTED_HOST="${{ secrets[format('SSH_NESTED_HOST_{0}', github.ref_name)] }}"
+            ssh $SSH_NESTED_HOST -T <<EOA
+              echo "### Deployment started"
+              if [ -d "${{ secrets.BASE_PATH }}/${{ github.repository }}-${{ github.ref_name }}" ]; then
+                  cd ${{ secrets.BASE_PATH }}/${{ github.repository }}-${{ github.ref_name }} && \
+                  echo "### Generate ENV file"
+                  > .env
+
+                  echo BRANCH=${{ github.ref_name }} >> .env
+
+                  echo PORT=${{ vars[format('PORT_{0}', github.ref_name)] }} >> .env                  
+                  echo EXCLUDE_FILES=${{ vars[format('EXCLUDE_FILES_{0}', github.ref_name)] }} >> .env                  
+
+                  git fetch && \
+                  git checkout ${{ github.ref_name }} && \
+                  git reset --hard origin/${{ github.ref_name }} && \
+                  docker-compose -f docker-compose.yml pull && \
+                  docker-compose -f docker-compose.yml up -d --build
+              else
+                  echo "Directory does not exist, aborting script."
+                  exit 1
+              fi
+            EOA
