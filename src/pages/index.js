@@ -62,16 +62,16 @@ export const strategyGuides = [
     to: '/docs/concepts/strategies/lusd',
     text: 'Learn how to borrow LUSD',
   },
-  {
-    title: 'sDAI Strategy',
-    to: '/docs/concepts/strategies/sdai',
-    text: 'Learn how to deposit DAI',
-  },
-  {
-    title: 'Liquid Staking',
-    to: '/docs/concepts/strategies/liquidStaking',
-    text: 'Learn how to stake ETH',
-  }
+  // {
+  //   title: 'sDAI Strategy',
+  //   to: '/docs/concepts/strategies/sdai',
+  //   text: 'Learn how to deposit DAI',
+  // },
+  // {
+  //   title: 'Liquid Staking',
+  //   to: '/docs/concepts/strategies/liquidStaking',
+  //   text: 'Learn how to stake ETH',
+  // }
 
 ]
 
