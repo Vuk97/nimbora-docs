@@ -56,7 +56,7 @@ export const dAppGuides = [
   },
 ]
 
-export const strategyGuides = window.EXCLUDE_FILES === 'false' ? [
+export const strategyGuides = [
   {
     title: 'LUSD Strategy',
     to: '/docs/concepts/strategies/lusd',
@@ -72,12 +72,7 @@ export const strategyGuides = window.EXCLUDE_FILES === 'false' ? [
     to: '/docs/concepts/strategies/liquidStaking',
     text: 'Learn how to stake ETH',
   }
-] : [
-  {
-    title: 'LUSD Strategy',
-    to: '/docs/concepts/strategies/lusd',
-    text: 'Learn how to borrow LUSD',
-  }
+
 ]
 
 const IconWrapper = styled.div`
@@ -245,11 +240,6 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout title={'Nimbora Docs | Nimbora Yield Dex'} description='Welcome to Nimbora Docs! Learn more about how to use Nimbora. Get informed about Nimbora mechanism, SDK and more'>
-      <head>
-        <script>
-        window.EXCLUDE_FILES = htmlWebpackPlugin.options.EXCLUDE_FILES;
-        </script>
-      </head>
       <Container>
       <DocsHeader>
           <div
