@@ -12,19 +12,19 @@ The process begins by visiting the Nimbora platform at https://app.nimbora.io/
 
 Click “**Connect Wallet**” in the top right corner 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/7b7c3be5-49b9-498e-b092-7449eba8e5a3/Untitled.png)
+![Untitled](https://i.imgur.com/SaXJ9qq.png) 
 
 Select one of the two available wallet options ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/501af106-dc6c-4ac0-bfe3-16488130bd65/Untitled.png)
+![Untitled](https://i.imgur.com/pwjsKxV.png)
 
 For the sake of this tutorial we will be using **Argent X** wallet extension. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/3e4a6c35-b6fa-41f9-b009-f487b9ad43fa/Untitled.png)
+![Untitled](https://i.imgur.com/517pTc6.png)
 
 Follow the notification prompt and click on “**Connect**” 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/0e002829-31fd-4e15-8485-03e2b9c66916/Untitled.png)
+![Untitled](https://i.imgur.com/RKP5vNr.png)
 
 ### This enable Nimbora to:
 
@@ -35,25 +35,25 @@ Follow the notification prompt and click on “**Connect**”
 
 Voila! “**Connect wallet**”  will be replaced with your wallet address, indicating you are successfully connected. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/853deda2-9050-4c0a-9842-2b215f163c92/Untitled.png)
+![Untitled](https://i.imgur.com/pnBwOEo.png)
 
 ## Understanding the Borrow Section
 
 There are 2 cards (troves) with 2 different TCR (total collateral ratio). The CR is not fixed**, as its value is pegged to the ETH price.** That is why the screenshot below might not match the current numbers you will see once you open the troves. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/4a78c4aa-342f-4849-98ad-84743ead2a2d/Untitled.png)
+![Untitled](https://i.imgur.com/ERJ3ast.png)
 
 **TCR is the percentage of assets you need to lock up as collateral when borrowing**. If you want to borrow $100 and the TCR is 676%, you must provide $676 worth of assets as collateral.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/88265623-b739-4569-adee-69e0cc71b113/Untitled.png)
+![Untitled](https://i.imgur.com/4HseVPI.png)
 
 Enter the desired amount and follow the prompt. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/7f4ef2a1-344b-4e1a-a6b2-a27c254c9a3a/Untitled.png)
+![Untitled](https://i.imgur.com/nqH7qmS.png)
 
 Nimbora thrives on efficiency, offering **ZERO L1 gas fees**. This enables you to borrow for under $0.025 per transaction, making your borrowing experience smooth and cost-effective.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/b1438eac-1364-4716-b811-b259992fe97a/Untitled.png)
+![Untitled](https://i.imgur.com/Nwrn0QS.png)
 
 ## **Which trove should you select?**
 
@@ -63,7 +63,7 @@ The left trove offers a unique opportunity for users to borrow with minimal tran
 
 ## Understanding collateral
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/0497258f-4cb1-48c9-81f7-998a4b72b25f/Untitled.png)
+![Untitled](https://i.imgur.com/3gF7AI3.png)
 
 Lets take as an example this image above - trove 604 TCR will require **less collateral** compared to Trove 910 CR, but Trove 910 TCR is **more secure** than Trove 604 .
 
@@ -75,15 +75,15 @@ Once the collateral is deposited and locked, users can borrow against it accordi
 
 You can repay the loan to avoid liquidation. Back on the strategy homepage, you will see the “**Repay**” button on the trove you have interacted with. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/93bf5b61-b797-41c3-80da-9e83dc3b34d0/Untitled.png)
+![Untitled](https://i.imgur.com/h82KXzB.png)
 
 To repay your debt you need to first check the debt balance of an account.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/ccf5d5ba-1bd9-4027-aa9c-d43725749b30/Untitled.png)
+![Untitled](https://i.imgur.com/FoymkHr.png)
 
 At the TCR of 550%, repaying the loan of 0.45 LUSD will get us back **0.00076** ETH which is an equivalent of around $2.5.  
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6166fa04-7686-417f-be01-cf7af137c427/2d11b2aa-1fa4-4f76-9795-742c76a97c32/Untitled.png)
+![Untitled](https://i.imgur.com/DYkDgWe.png)
 
 ### What is Liquity?
 
