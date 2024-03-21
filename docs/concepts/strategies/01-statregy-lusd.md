@@ -35,7 +35,7 @@ Follow the notification prompt and click on “**Connect**”
 
 Voila! “**Connect wallet**”  will be replaced with your wallet address, indicating you are successfully connected. 
 
-![Untitled](https://i.imgur.com/pnBwOEo.png)
+![Untitled](https://i.imgur.com/31dDkrK.png)
 
 ## Understanding the Borrow Section
 
