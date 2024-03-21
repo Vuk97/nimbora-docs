@@ -12,7 +12,7 @@ The process begins by visiting the Nimbora platform at https://app.nimbora.io/
 
 Click “**Connect Wallet**” in the top right corner 
 
-![Untitled](https://i.imgur.com/SaXJ9qq.png) 
+![Untitled](https://i.imgur.com/pnBwOEo.png) 
 
 Select one of the two available wallet options ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) 
 
