@@ -59,7 +59,7 @@ export const dAppGuides = [
 export const strategyGuides = [
   {
     title: 'LUSD Strategy',
-    to: '/docs/concepts/strategies/lusd',
+    to: '/docs/concepts/strategies/liquity',
     text: 'Learn how to borrow LUSD',
   },
   // {
