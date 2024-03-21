@@ -12,7 +12,7 @@ The process begins by visiting the Nimbora platform at https://app.nimbora.io/
 
 Click “**Connect Wallet**” in the top right corner 
 
-![Untitled](https://i.imgur.com/pnBwOEo.png) 
+![Untitled](https://i.imgur.com/SaXJ9qq.png) 
 
 Select one of the two available wallet options ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) 
 
@@ -24,7 +24,7 @@ For the sake of this tutorial we will be using **Argent X** wallet extension.
 
 Follow the notification prompt and click on “**Connect**” 
 
-![Untitled](https://i.imgur.com/RKP5vNr.png)
+![Untitled](https://i.imgur.com/pnBwOEo.png)
 
 ### This enable Nimbora to:
 
