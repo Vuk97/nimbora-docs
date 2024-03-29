@@ -67,7 +67,7 @@ The left trove offers a unique opportunity for users to borrow with minimal tran
 
 Lets take as an example this image above - trove 604 TCR will require **less collateral** compared to Trove 910 CR, but Trove 910 TCR is **more secure** than Trove 604 .
 
-Consider this scenario: if all troves were open when the ETH price was at $1600, Trove 604 would have a higher tolerance for price fluctuations compared to Trove 910, allowing it to withstand a more significant drop in ETH price before facing liquidation.
+Consider this scenario: if all troves were open when the ETH price was at $1600, Trove 910 would have a higher tolerance for price fluctuations compared to Trove 604, allowing it to withstand a more significant drop in ETH price before facing liquidation.
 
 Once the collateral is deposited and locked, users can borrow against it according to the platform's loan-to-value ratio.   If the value of the collateral falls below certain thresholds, the system may automatically liquidate the assets to repay the loan. 
 
@@ -115,10 +115,10 @@ At the TCR of 550%, repaying the loan of 0.45 LUSD will get us back **0.00076** 
 
   - All official Liquity contracts can be found [here](https://docs.liquity.org/documentation/resources#contract-addresses).
 
-### How much LUSD can I borrow?
+### How frequently are transactions processed?
 
-- The maximum is currently capped at 1.75 ETH, but this will change over time.
-
+- Borrow takes a day to be processed.
+  
 ### Do I really pay no interests on Liquity?
 
   - Yes, really! Liquity charges no interest, ever.
