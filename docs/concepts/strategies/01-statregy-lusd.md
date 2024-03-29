@@ -115,7 +115,7 @@ At the TCR of 550%, repaying the loan of 0.45 LUSD will get us back **0.00076** 
 
   - All official Liquity contracts can be found [here](https://docs.liquity.org/documentation/resources#contract-addresses).
 
-### How frequently are transactions processed?
+### How frequently are borrows processed?
 
 - Borrow takes a day to be processed.
   
