@@ -60,12 +60,12 @@ export const dAppGuides = [
 export const strategyGuides = [
   {
     title: 'Borrow Strategy',
-    to: '/docs/concepts/strategies/liquity',
+    to: '/docs/concepts/guide/borrow',
     text: 'Learn how to borrow LUSD',
   },
   {
     title: 'Earn Strategy',
-    to: '/docs/concepts/strategies/sdai',
+    to: '/docs/concepts/guide/earn',
     text: 'Discover how to access diverse yield opportunities',
   },
 
