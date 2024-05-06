@@ -74,7 +74,7 @@ const config = {
         },
         items: [
           {
-            to: 'docs/concepts/overview',
+            to: 'docs/concepts/introduction',
             position: 'left',
             label: 'About Nimbora',
             className: 'V3_active'
@@ -128,7 +128,7 @@ const config = {
             items: [
               {
                 label: 'What is Nimbora',
-                href: '/docs/concepts/overview',
+                href: '/docs/concepts/introduction',
               },
               {
                 label: 'Nimbora Integrations',
