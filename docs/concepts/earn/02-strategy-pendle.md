@@ -16,7 +16,7 @@ This strategy combines multiple steps unto multiple protocol:
 - Pool tokens issued are finally sent to a Token locker protocol (PENPIE) to boost $PENDLE rewards
 - $PENDLE rewards are sold for more underlying and compounded into the strategy
 
-![alt](/content/pendleStrategy.png)
+![alt](/content/pendle.png)
 
 
 ### Source of yields

@@ -10,7 +10,7 @@ sidebar_class_name: hidden
 
 This strategy is straightforward as the logic is very simple: it consists of depositing tokens into DSR to acquire SDAI.
 
-![alt](/content/sDaiStrategy.png)
+![alt](/content/sdai.png)
 
 
 ### Source of yields
