@@ -1,7 +1,7 @@
 ---
 id: liquity
 title: Liquity Strategy
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 **Liquity strategy allows users to borrow LUSD**, a stablecoin pegged to the U.S. dollar, using ETH as collateral. This strategy is beneficial for users who want to leverage their assets without selling them.  If ETH value goes up while the loan is active, repaying it becomes more profitable as users get back their ETH, now more valuable. On top of this, participating in this strategy now comes with a bonus: a ~45% APR in STRK tokens, paid out every two weeks, thanks to the [DeFi Spring initiative.](https://medium.com/@Nimbora/defi-spring-just-got-better-earn-strk-with-nimbora-x-liquity-d7e881f22c38)
@@ -50,3 +50,36 @@ sidebar_position: 3
 ### I don’t have enough LUSD to pay my debt, what can I do?
 
   - If you don’t have enough LUSD in your account you can use the [Starkgate](https://starkgate.starknet.io/) bridge to bridge the LUSD amount required to pay your debt and get back your collateral.
+
+
+
+### Understanding Risks Associated with Liquity
+
+1. **Smart Contract Risk**:
+  - Liquity, like any other DeFi protocol, is vulnerable to smart contract exploits. Despite efforts to audit and secure the smart contracts, there remains a risk of undiscovered vulnerabilities. Exploits can lead to loss of funds or manipulation of the protocol.
+  
+2. **Liquidation Risk**:
+  - When users create a trove in Liquity, they must maintain a collateral ratio of at least 110%. Troves that fall below this threshold are subject to liquidation.
+
+**Process**:
+  1. **Stability Pool Usage**: The system uses funds from the Stability Pool to cancel the debt of undercollateralized troves.
+  2. **Redistribution Mechanism**: If the Stability Pool lacks sufficient funds, a redistribution mechanism is activated, spreading the debt and collateral of liquidated troves among all trove holders.
+
+**Penalty**:
+Users facing liquidation may incur a penalty of up to 10%, which incentivizes them to maintain a safe collateral ratio.
+
+
+3. **Redemption Risk**:
+  - Liquity allows direct redemption of LUSD stablecoins for the underlying collateral, Ether. This process carries certain risks for borrowers.
+
+**Process**:
+  1. **Debt Cancellation**: Redeeming LUSD cancels debt from the riskiest trove in the system, i.e., the trove with the lowest collateral ratio.
+  2. **Collateral Transfer**: The redeemer receives a corresponding amount of Ether from the trove used for debt cancellation.
+
+**Impact**:
+Redemptions reduce the borrower's leverage and increase the overall collateral ratio of the system. While there's no additional penalty for borrowers, redemptions can lead to collateral loss and deleveraging of positions.
+
+
+### Vigilant Surveillance:
+
+In the realm of Nimbora, your trove's collateralization ratio is closely monitored by the protocol itself. While you can't directly alter this ratio, rest assured that Nimbora diligently adjusts the risk levels to safeguard against potential liquidations or redemptions.
