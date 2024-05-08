@@ -1,7 +1,7 @@
 ---
 id: liquity
 title: Liquity Strategy
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 **Liquity strategy allows users to borrow LUSD**, a stablecoin pegged to the U.S. dollar, using ETH as collateral. This strategy is beneficial for users who want to leverage their assets without selling them.  If ETH value goes up while the loan is active, repaying it becomes more profitable as users get back their ETH, now more valuable. On top of this, participating in this strategy now comes with a bonus: a ~45% APR in STRK tokens, paid out every two weeks, thanks to the [DeFi Spring initiative.](https://medium.com/@Nimbora/defi-spring-just-got-better-earn-strk-with-nimbora-x-liquity-d7e881f22c38)
@@ -64,7 +64,7 @@ sidebar_position: 3
 **Process**:
   1. **Stability Pool Usage**: The system uses funds from the Stability Pool to cancel the debt of undercollateralized troves.
   2. **Redistribution Mechanism**: If the Stability Pool lacks sufficient funds, a redistribution mechanism is activated, spreading the debt and collateral of liquidated troves among all trove holders.
-  
+
 **Penalty**:
 Users facing liquidation may incur a penalty of up to 10%, which incentivizes them to maintain a safe collateral ratio.
 
