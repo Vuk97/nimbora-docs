@@ -69,3 +69,27 @@ This strategy is straightforward as the logic is very simple: it consists of dep
       - [Website](https://makerdao.com/en/)
       - [Docs](https://docs.makerdao.com/)
       - [MakerDAO on Twitter](https://twitter.com/MakerDAO)
+
+
+
+### Understanding Risks Associated with SDAI
+
+1. **Smart Contract Risk**:
+    - sDAI, like other DeFi protocols, is susceptible to exploits, including smart contract vulnerabilities and malicious attacks.
+
+2. **Regulatory Risks**:
+    - MakerDAO's shift towards RWA-based collateral introduces regulatory uncertainty due to its decentralized nature.
+    - Increased reliance on RWAs may lead to compliance challenges and potential regulatory gaps.
+
+3. **Collateral Risks**:
+    - RWAs' default risks may result in collateral shortfalls, jeopardizing the 1:1 USD peg of sDAI.
+    - Fluctuations in the DAI Savings Rate (DSR) could strain liquidity buffers if significant amounts of sDAI are minted or burned abruptly.
+    - RWAs' sensitivity to interest rate fluctuations may lead to losses if redemptions are required before maturity.
+
+4. **Collateral Risks**:
+    - MakerDAO's engagement with multiple counterparties exposes it to credit risks such as liquidity, reputation, and settlement challenges.
+
+5. **Centralization and Transparency Risks**:
+    - Pursuing additional returns through RWAs may increase centralization within MakerDAO. 
+    - Onboarding RWAs reduces transparency compared to on-chain crypto assets, posing transparency  risks.
+
