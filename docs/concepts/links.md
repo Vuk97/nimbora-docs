@@ -1,7 +1,7 @@
 ---
 id: links
 title: Useful Links
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 # A Word of Caution: Stay Vigilant
