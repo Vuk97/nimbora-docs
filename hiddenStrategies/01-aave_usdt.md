@@ -1,4 +1,4 @@
----
+<!-- ---
 id: aave_usdt
 title: Aave Usdt
 sidebar_position: 1
@@ -29,4 +29,4 @@ aUSDT is an interest-bearing token received when depositing USDT (Tether) into A
 
 5. **Counterparty Risk**: While Aave is designed to be decentralized, there is still some counterparty risk associated with lending and borrowing. If a borrower defaults on their loan, lenders may not be able to recover their full principal and interest payments, especially if there are not enough liquidated assets to cover the debt.
 
-6. **Regulatory Risk**: The regulatory environment surrounding DeFi and cryptocurrencies is still evolving, and there is uncertainty regarding how regulators will treat these platforms in the future. Changes in regulations or enforcement actions could have a significant impact on the operation of Aave and the value of assets held within the protocol.
+6. **Regulatory Risk**: The regulatory environment surrounding DeFi and cryptocurrencies is still evolving, and there is uncertainty regarding how regulators will treat these platforms in the future. Changes in regulations or enforcement actions could have a significant impact on the operation of Aave and the value of assets held within the protocol. -->

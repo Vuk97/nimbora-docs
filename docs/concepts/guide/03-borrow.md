@@ -39,7 +39,7 @@ Finally, when you've selected the amount, click on "borrow" and follow the promp
 ![alt](/content/rborrow.png)
 
 
-Once the transaction has been accepted on the network, a popup will appear at the bottom left of the screen to let you know. 
+Once the transaction has been accepted on the network, a popup will appear at the bottom right of the screen to let you know. 
 
 ![alt](/content/fborrow.png)
 
@@ -64,9 +64,9 @@ Once you've made up your mind, locate and click on the 'repay' button and follow
 
 ![alt](/content/rrepay.png)
 
-Once the transaction has been accepted on the network, a popup will appear at the bottom left of the screen to let you know. 
+Once the transaction has been accepted on the network, a popup will appear at the bottom right of the screen to let you know. 
 
-![alt](/content/rrepay.png)
+![alt](/content/frepay.png)
 
 You can consult all of your recent repays in the wallet sections, your transaction should be here. 
 
