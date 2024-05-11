@@ -6,11 +6,10 @@ sidebar_position: 2
 
 ## L1 Mainnet contracts
 
-| Contract Name                                                                                      | Class Hash                             |
+| Contract Name                                                                                      | Description                             |
 |----------------------------------------------------------------------------------------------------|----------------------------------------|
-| [Pooling Manager](https://etherscan.io/address/0x56B4518E4053eB3C24f68852899F7a6d57530caF)         | Communication between L1-L2 strategies |
-| [Saving Dai Strategy](https://etherscan.io/address/0xAFa27423F3bb4c0337946dDcd1802588807571bf)     | sDAI strategy                          |
-| [wstETH Strategy](https://etherscan.io/address/0xE5e2134e536fbfD7513094646E27C401bbb03eF6)         | Liquid Staking strategy with wstETH    |
+| [Pooling Manager](https://etherscan.io/address/0x189D3191A55B160A2A7BE16bA2d614C4908dFc76)         | Communication between L1-L2 strategies |
+| [Pendle Lp EtherFi Strategy](https://etherscan.io/address/0x5ECCc513eFB6B3e7D70579AA81780b6d5e904D2B)     | Pendle Lp EtherFi Strategy strategy                          |
 
 
 
@@ -18,11 +17,9 @@ sidebar_position: 2
 You can declare a contract only once on each network. So if you don't do any modification into our current contract implementation you may face an error while declaring. Therefore here you can find the current class hash of each contract on Mainnet.
 
 
-| Contract Name                                                                                                            | Class Hash                                          |
+| Contract Name                                                                                                            | Description                                          |
 |--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| [Pooling Manager](https://starkscan.co/contracts/0x065a953f89a314a427e960114c4b9bb83e0e4195f801f12c25e4a323a76da0a9)     | Register and communication between L1-L2 strategies |
-| [Factory](https://starkscan.co/contract/0x04a1436a5b9074d1682b58d368e4c4d5cafccc3f048b8e96c5c815bae7c7d466)              | Deploy new strategies                               |
-| [Token Manager sDAI](https://starkscan.co/contract/0x02ab4c62add88f102f1f1f3ff6185e5fc00a3ffccf1b7b85505615f68096feed)   | Strategy accountability                             |
-| [Nimbora Token sDAI](https://starkscan.co/contract/0x23309ad3a5d9f7311460d6c65181dca024c4067a1fb68dfd6dae370551f2098)    | L1 strategy yield-bearing sDAI token                |
-| [Token Manager ETH](https://starkscan.co/contract/0x0790370ce248020ee58e413a0d6c82e8250248aa346a90abc293c52d8bef9c1b)    | L1 strategy yield-bearing token                     |
-| [Nimbora Token ETH](https://starkscan.co/contract/0xe7cf77a75239f3e704ff11160ac5935971115e5c359a679fc9612900e8ce19)      | L1 strategy yield-bearing token                     |
+| [Pooling Manager](https://starkscan.co/contracts/0x6abf2636072eb8716d55cb1a9f885cb2c5ed9013c69d8c8e035a8fb49c414e3)     | Register and communication between L1-L2 strategies |
+| [Factory](https://starkscan.co/contract/0x8e18cd8edf7a8b80fc838ae88167f4b6f44ab65c3387ad96d394e7688e5895)              | Deploy new strategies                               |
+| [Token Manager Pendle Lp EtherFi](https://starkscan.co/contract/0x3759ed21701538d2e1bc5896611166a06585cdbbeeddd1fbdd25da10b2174d3)    | Manage share accountability                     |
+| [Token Pendle Lp EtherFi Strategy](https://starkscan.co/contract/0x316ec509f7ad89b7e6e03d15a436df634454f95e815536d616af03edc850fa3)      | Tokenized share                     |
