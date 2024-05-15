@@ -9,7 +9,7 @@ sidebar_position: 2
 | Contract Name                                                                                      | Description                             |
 |----------------------------------------------------------------------------------------------------|----------------------------------------|
 | [Pooling Manager](https://etherscan.io/address/0x189D3191A55B160A2A7BE16bA2d614C4908dFc76)         | Communication between L1-L2 strategies |
-| [Pendle Lp EtherFi Strategy](https://etherscan.io/address/0x5ECCc513eFB6B3e7D70579AA81780b6d5e904D2B)     | Pendle Lp EtherFi Strategy strategy                          |
+| [SavingDai Strategy](https://etherscan.io/address/0x30bcB08E253647189A2971A3990057cdCE639F10)     | Saving Dai strategy                          |
 
 
 
@@ -21,5 +21,5 @@ You can declare a contract only once on each network. So if you don't do any mod
 |--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | [Pooling Manager](https://starkscan.co/contracts/0x6abf2636072eb8716d55cb1a9f885cb2c5ed9013c69d8c8e035a8fb49c414e3)     | Register and communication between L1-L2 strategies |
 | [Factory](https://starkscan.co/contract/0x8e18cd8edf7a8b80fc838ae88167f4b6f44ab65c3387ad96d394e7688e5895)              | Deploy new strategies                               |
-| [Token Manager Pendle Lp EtherFi](https://starkscan.co/contract/0x3759ed21701538d2e1bc5896611166a06585cdbbeeddd1fbdd25da10b2174d3)    | Manage share accountability                     |
-| [Token Pendle Lp EtherFi Strategy](https://starkscan.co/contract/0x316ec509f7ad89b7e6e03d15a436df634454f95e815536d616af03edc850fa3)      | Tokenized share                     |
+| [Token Manager Saving Dai](https://starkscan.co/contract/0x03f7eb72b314a783d2f68e57ca7282641694fa1e081e080e3f7ccd8e09cf8f93)    | Manage share accountability                     |
+| [Token Saving Dai](https://starkscan.co/contract/0x4380de5819e2e989b5e8b978ea2811fd36fdbc5c12fcfb3a2b444098888665)      | Tokenized share                     |
