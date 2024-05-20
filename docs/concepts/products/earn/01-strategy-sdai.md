@@ -1,11 +1,21 @@
 ---
 id: sdai
 title: sDAI Strategy
-sidebar_position: 3
+sidebar_position: 1
 sidebar_class_name: hidden
 ---
 
 **This strategy allows users to leverage their DAI holdings** by depositing them into an sDAI vault, which is a specialized financial vehicle. This depositing action allows their DAI to be put to work, generating potential profits over time. The approach combines the security of DAI, a stablecoin, with the revenue-generating power of DeFi strategies. This mechanism is designed to provide users with a more effective way to maximize the potential return on their DAI investments.
+
+
+This strategy is straightforward as the logic is very simple: it consists of depositing tokens into DSR to acquire SDAI.
+
+![alt](/content/sdai.png)
+
+
+### Source of yields
+    - Maker Protocol fees coming fron DAI borrow and treasury earning.
+
 
 ### What is sDAI
 
@@ -61,40 +71,25 @@ sidebar_class_name: hidden
       - [MakerDAO on Twitter](https://twitter.com/MakerDAO)
 
 
-## How to deposit
 
-To interact with the sDAI strategy, you'll first need to connect to Nimbora. You can do this through available wallets such as Argent or Braavos. Ensure you have some DAI tokens in your wallet.
+### Understanding Risks Associated with SDAI
 
-![alt](/content/wallet_connect.jpeg)
+1. **Smart Contract Risk**:
+    - sDAI, like other DeFi protocols, is susceptible to exploits, including smart contract vulnerabilities and malicious attacks.
 
-After connecting to Nimbora, find and select the sDAI strategy. Here, you'll see various metrics like Annual Percentage Rate (APR) and Total Value Locked (TVL). On the same screen, you'll find a place to enter the type and amount of tokens you want to deposit into the sDAI strategy. It will also display the amount of sDAI tokens you'll get once the transaction is completed.
+2. **Regulatory Risks**:
+    - MakerDAO's shift towards RWA-based collateral introduces regulatory uncertainty due to its decentralized nature.
+    - Increased reliance on RWAs may lead to compliance challenges and potential regulatory gaps.
 
-![alt](/content/sdai_strategy/sdai_return.jpeg)
+3. **Collateral Risks**:
+    - RWAs' default risks may result in collateral shortfalls, jeopardizing the 1:1 USD peg of sDAI.
+    - Fluctuations in the DAI Savings Rate (DSR) could strain liquidity buffers if significant amounts of sDAI are minted or burned abruptly.
+    - RWAs' sensitivity to interest rate fluctuations may lead to losses if redemptions are required before maturity.
 
-Finally, when you've selected the token amount to deposit, click on "deposit" and follow the prompts on your wallet (Argent or Braavos) to complete the transaction.
+4. **Collateral Risks**:
+    - MakerDAO's engagement with multiple counterparties exposes it to credit risks such as liquidity, reputation, and settlement challenges.
 
-Upon completing the transaction, users can track the status of their transaction under the wallet view.
+5. **Centralization and Transparency Risks**:
+    - Pursuing additional returns through RWAs may increase centralization within MakerDAO. 
+    - Onboarding RWAs reduces transparency compared to on-chain crypto assets, posing transparency  risks.
 
-![alt](/content/sdai_strategy/deposit_tx.jpeg)
-
-## How to request a withdrawal
-
-If you've been using the sDAI strategy and decided that you want to take your assets back, you can do that. It's important to note though, Nimbora won't be able to process this withdrawal request for you. You'll have to do it yourself, but don't worry, the steps are simple.
-
-First, you need to decide on the amount you want to withdraw. This could be all or a portion of your assets. Once you've made up your mind, locate and click on the 'withdraw' button.
-
-![alt](/content/sdai_strategy/sdai_request_withdrawal.jpeg)
-
-When you click 'withdraw', your Wallet will guide you through the next steps. Just follow the instructions provided there to complete the transaction.
-
-Remember, when you withdraw, you won't receive your assets in the form they were when you deposited them. Instead, you'll get them in the form of DAI, which is the underlying asset used in the sDAI strategy. This means that no matter what type of asset you initially deposited, what you get when you withdraw will always be DAI.
-
-## How to claim a withdrawal
-
-After you have decided to withdraw your assets and made a request, Nimbora takes over the task of processing this request. This involves preparing your assets in order to be transferred back to your Wallet, a process that is handled entirely behind the scenes to ensure a smooth and efficient operation.
-
-In a process that is akin to preparing a parcel for shipment, Nimbora packages your assets and makes them ready for delivery back to you, the owner. During this phase, you don't have to worry about doing anything - Nimbora takes care of all the technical aspects involved.
-
-Once the processing and preparation phase is finished, a claim button will appear on your screen. This button is your signal that the withdrawal process has reached its final stage and that your assets are ready to be claimed.
-
-Think of the claim button as a notification that your parcel (in this case, your assets) has arrived at its destination and is ready for pickup. Once you see the claim button, simply click on it to receive your DAI tokens, completing the withdrawal process.

@@ -10,7 +10,7 @@ env:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, '${{ vars.RUNNER }}']
     if: github.ref_name == ${{ github.ref_name }}
     steps:
       - name: Deploy the service to "${{ github.ref_name }}"
@@ -37,8 +37,8 @@ jobs:
                   git fetch && \
                   git checkout ${{ github.ref_name }} && \
                   git reset --hard origin/${{ github.ref_name }} && \
-                  docker-compose -f docker-compose.yml pull && \
-                  docker-compose -f docker-compose.yml up -d --build
+                  docker compose -f docker-compose.yml pull && \
+                  docker compose -f docker-compose.yml up -d --build
               else
                   echo "Directory does not exist, aborting script."
                   exit 1
