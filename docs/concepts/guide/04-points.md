@@ -22,7 +22,6 @@ sidebar_position: 4
 - **Earn Points**: Earn points while using earn strategies.
 - **Rank Points**: Earn points based on your performance.
 - **Referral Points**: Earn points by inviting your friends.
-- **Social Points**: Earn points by engaging with the protocol (unactivated for now).
 
 ## How are on-chain points calculated?
 
