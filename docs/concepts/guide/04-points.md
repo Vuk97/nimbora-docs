@@ -145,7 +145,3 @@ So, the total pts earn by each user during the last 24 hours:
 | 3 | 187 | 18 |
 | 4 | 110 | 5 |
 | 5 | 110 | 0 |
-
-### Social
-
-TBD
