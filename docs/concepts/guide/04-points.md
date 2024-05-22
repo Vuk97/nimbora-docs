@@ -39,7 +39,7 @@ The borrow points are calculated based on the daily user collateral `ETH` deposi
 
 ### Earn
 
-We employ a similar methodology to calculate the points for Yield DEX strategies. In the Sdai strategy, we determine the points by converting the balance of `DAI`-equivalent yield-bearing tokens. The median daily price sourced from Pragma oracles (if not stablecoin) is utilized in this calculation process.
+We employ a similar methodology to calculate the points for Yield DEX strategies. In the nsDai strategy, we determine the points by converting the balance of `DAI`-equivalent yield-bearing tokens. The median daily price sourced from Pragma oracles (if not stablecoin) is utilized in this calculation process.
 
 | Day | nsDAI balance | USD equivalent | pts earn |
 | --- | --- | --- | --- |
