@@ -14,7 +14,7 @@ This strategy is straightforward as the logic is very simple: it consists of dep
 
 
 ### Source of yields
-    - Maker Protocol fees coming fron DAI borrow and treasury earning.
+    - Maker Protocol fees coming from DAI borrow and treasury earning.
 
 
 ### What is sDAI
