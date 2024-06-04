@@ -13,7 +13,16 @@ There are several yield strategies with different underlying tokens and APR (Ann
 
 **APR is the percentage of assets you will earn on your deposit after a year**. If you want to deposit $100 of a certain token in a strategy, if APR is 10% avergae you'll earn $10 after a year. 
 
+
 **APR is not fixed**. APR can change based on several factor such as market condition or the net asset value of the L1 strategy. 
+
+**Here's an APR breakdown of the nsDAI strategy**
+
+![alt](https://i.ibb.co/P4Vbc55/Screenshot-556.png)
+
+1. **Base**: Represents default strategy yield. 
+2. **Boost**: Represents incentives added by the Nimbora team to enable higher APR. 
+3. **Incentives**: Represents incentives provided by the Starknet Foundation.
 
 **Underlying protocols**. Underlying protocols linked to the strategy are displayed, you can choose the one you are the most comfortable with. 
 

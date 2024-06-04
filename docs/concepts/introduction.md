@@ -81,3 +81,6 @@ Building upon Starknet brings a paradigm shift to Ethereum transactions through 
 - **Enhanced User Experience:** Providing intuitive and seamless interactions (Native Account Abstraction).
 - **Developer-Friendly Ecosystem:** Fostering an environment conducive to innovation and expansion.
 - **Swift and Efficient Operations:** Streamlining processes across the blockchain for improved performance.
+## Nimbora Security Audits:
+
+Nimbora has been audited by the Cairo Security Clan. Get the report [here](https://github.com/0xSpaceShard/nimbora_audit_report_yield_dex/blob/main/Nimbora%20Audit%20Report.pdf).
