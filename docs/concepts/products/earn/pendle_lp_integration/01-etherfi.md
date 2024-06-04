@@ -1,6 +1,6 @@
 ---
-id: etherfi
-title: EtherFi LRT
+id: npeEth
+title: npeEth Strategy
 sidebar_position: 1
 sidebar_class_name: hidden
 ---
