@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Getting Started on Starknet[](https://docs.nimbora.io/docs/concepts/guide/first_steps#getting-started-on-starknet)
 
-1. The first step is installing a Starknet wallet( [Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)). 
+1. The first step is installing a Starknet wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)). 
 2. Deposit funds (ETH on Starknet for starters) to your account. 
 3. To interact with Starknet dApps, you will need to deploy your account.  
 
