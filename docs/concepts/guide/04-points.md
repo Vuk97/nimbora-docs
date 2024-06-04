@@ -117,3 +117,24 @@ The following table was calculated using boosted balances.
 Rank points represent extra points earned based on your leaderboard position, with the top performers having higher earning rate. 
 
 ![Untitled](https://i.ibb.co/3TSwx37/Screenshot-550.png)
+This table represents points bonus based on the leaderboard position: 
+
+| Leaderboard | Boost % |
+| --- | --- |
+| 1-50 | 20% |
+| 51-200 | 15% |
+| 201-500 | 10% |
+| 501-1000 | 5% |
+| 1001+ | 0% |
+
+This table represents points breakdown with the Rank points taken into the account:
+
+| Leaderboard | Earn points | Borrow points | Referral points | % boost | Rank points | Total |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1-50 | 100 | 50 | 50 | 20% | 40 | 240 |
+| 51-200 | 80 | 20 | 0 | 15% | 15 | 115 |
+| 201-500 | 70 | 0 | 10 | 10% | 8 | 88 |
+| 501-1000 | 30 | 10 | 0 | 5% | 2 | 42 |
+| 1001+ | 30 | 5 | 0 | 0% | 0 | 35 |
+
+`Info: When users have the same points the register timestamp is used to order them.`
