@@ -85,5 +85,5 @@ And that's it, you should see your pending request in the navbar.
 
 ![alt](/content/pwithdraw.png)
 
-Nimbora takes over the task of processing this request. This involves preparing your assets in order to be transferred back to your Wallet, a process that is handled entirely behind the scenes to ensure a smooth and efficient operation. Once the request is ready to be claimed, nimbora relayer will handle it and send it directly into your wallet. 
+Nimbora takes over the task of processing this request. This involves preparing your assets in order to be transferred back to your wallet, a process that is handled entirely behind the scenes to ensure a smooth and efficient operation. Once the request is ready to be claimed, Nimbora relayer will handle it and send it directly into your wallet. 
 
