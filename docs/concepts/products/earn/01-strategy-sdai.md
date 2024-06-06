@@ -1,20 +1,20 @@
 ---
-id: sdai
-title: sDAI Strategy
+id: nsdai
+title: nsDai Strategy
 sidebar_position: 1
 sidebar_class_name: hidden
 ---
 
-**This strategy allows users to leverage their DAI holdings** by depositing them into an sDAI vault, which is a specialized financial vehicle. This depositing action allows their DAI to be put to work, generating potential profits over time. The approach combines the security of DAI, a stablecoin, with the revenue-generating power of DeFi strategies. This mechanism is designed to provide users with a more effective way to maximize the potential return on their DAI investments.
+**This strategy allows users to leverage their DAI holdings** by depositing them into an sDai vault, which is a specialized financial vehicle. This depositing action allows their DAI to be put to work, generating potential profits over time. The approach combines the security of DAI, a stablecoin, with the revenue-generating power of DeFi strategies. This mechanism is designed to provide users with a more effective way to maximize the potential return on their DAI investments.
 
 
-This strategy is straightforward as the logic is very simple: it consists of depositing tokens into DSR to acquire SDAI.
+This strategy is straightforward as the logic is very simple: it consists of depositing tokens into DSR to acquire sDai.
 
 ![alt](/content/sdai.png)
 
 
 ### Source of yields
-    - Maker Protocol fees coming fron DAI borrow and treasury earning.
+    - Maker Protocol fees coming from DAI borrow and treasury earning.
 
 
 ### What is sDAI
