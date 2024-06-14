@@ -122,8 +122,8 @@ This table represents points bonus based on the leaderboard position:
 | Leaderboard | Boost % |
 | --- | --- |
 | 1-50 | 20% |
-| 51-200 | 15% |
-| 201-500 | 10% |
+| 51-150 | 15% |
+| 151-500 | 10% |
 | 501-1000 | 5% |
 | 1001+ | 0% |
 
