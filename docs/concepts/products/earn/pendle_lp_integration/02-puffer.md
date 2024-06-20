@@ -42,10 +42,7 @@ As a result, you will receive nppETH, which is Liquid Restaking Token (LRT). And
 
 ## Your Earning Starts Immediately![](https://docs.nimbora.io/docs/concepts/products/earn/pendle_lp_integration/npeEth#your-earning-starts-immediately)
 
-Your yield comes from several sources -  **11% nppETH base yield** + **$STRK** **incentives** + **Nimbora** **boost.**
-
-![Untitled](../../../../../static/content/stategy_nppeth/yield.png)
-
+Your yield comes from several sources -  **nppETH base yield** + **$STRK** **incentives** + **Nimbora** **boost.**
 
 1. **Base**: Represents default strategy yield.
 2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5).
