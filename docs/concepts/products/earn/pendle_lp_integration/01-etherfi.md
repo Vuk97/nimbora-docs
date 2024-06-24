@@ -28,17 +28,18 @@ Enter the amount of ETH you want to deposit, or click on the small buttons below
 
 ![Untitled](../../../../../static/content/strategy_npeeth/npeeth_home.png)
 
-When you've selected the token amount to deposit, click on "Deposit" button and follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
-
+When you've selected the token amount to deposit, click on "Deposit" button.
 ![Untitled](../../../../../static/content/strategy_npeeth/npeeth_deposit.png)
 
-Once the transaction has been accepted on the network, a popup will appear at the bottom left of the screen to let you know.
+Follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
 
+![Untitled](../../../../../static/content/strategy_npeeth/npeeth_wallet.png)
+
+Once the transaction has been accepted on the network, a popup will appear at the bottom left of the screen to let you know.
 ![Untitled](../../../../../static/content/strategy_npeeth/npeeth_confirmation.png)
 
 As a result, you will receive npeETH, which is Liquid Restaking Token (LRT). And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser. 
 
-![Untitled](../../../../../static/content/strategy_npeeth/npeeth_wallet.png)
 
 ## Your Earning Starts Immediately!
 

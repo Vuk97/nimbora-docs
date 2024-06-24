@@ -29,12 +29,15 @@ Enter the amount of ETH you want to deposit, or click on the small buttons below
 ![Untitled](../../../../../static/content/stategy_nppeth/main.png)
 
 
-When you've selected the token amount to deposit, click on "Deposit" button and follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
-
+When you've selected the token amount to deposit, click on "Deposit" button. 
 ![Untitled](../../../../../static/content/stategy_nppeth/deposit.png)
 
-Once the transaction has been accepted on the network, a popup will appear at the bottom left of the screen to let you know.
+Follow the prompts on your wallet ([Braavos](https://braavos.app/) or [ArgentX](https://argent.xyz/)) to complete the transaction.
 ![Untitled](../../../../../static/content/stategy_nppeth/deposit_confirm.png)
+
+
+Once the transaction has been accepted on the network, a popup will appear at the bottom left of the screen to let you know.
+![Untitled](../../../../../static/content/stategy_nppeth/deposit_accepted.png)
 
 
 As a result, you will receive nppETH, which is Liquid Restaking Token (LRT). And that's it, you should be able to see your balance of Nimbora Yield Token in the portfolio section or directly into your wallet browser.
@@ -48,7 +51,7 @@ Your yield comes from several sources -  **nppETH base yield** + **$STRK** *
 2. **Boost**: Represents incentives provided by the Nimbora team using the [Starknet Catalyst grant](https://medium.com/@Nimbora/nimbora-and-starknet-catalyst-program-14cc7f2f1ab5).
 3. **Incentives**: Represents incentives provided by the Starknet Foundation as a part of the [DeFi Spring initiative](https://medium.com/@Nimbora/nimbora-joins-starknet-defi-spring-d7921e56e2e4).
 
-With this strategy you are also earning points for 3 protocols: 1x Nimbora, 2x Puffer, 1x EigenLayer.
+With this strategy you are also earning points for 3 protocols: 1x Nimbora, 1x Puffer, 1x EigenLayer.
 
 ![Untitled](../../../../../static/content/stategy_nppeth/main_points.png)
 
@@ -84,13 +87,10 @@ Nimbora takes over the task of processing this request. This involves preparing 
 
 ### What is Puffer?
 
-- **Non-Custodial Staking**: Puffer is a decentralized protocol designed to enhance the staking experience on Ethereum by providing secure, efficient, and decentralized staking solutions. It focuses on making staking more accessible and profitable for at-home validators while maintaining Ethereum’s decentralization and security.
-  - **Secure-Signer Technology**: Puffer leverages Secure-Signer, a remote signing tool using Intel SGX, to provide non-custodial staking. This ensures that users maintain control over their validator keys, enhancing security and reducing the risk of slashable offenses.
-  - **Lower Bond Requirement**: By reducing the bond requirement to just 2 ETH, Puffer lowers the entry barrier for validators, promoting a more diverse and decentralized validator set.
-
-- **Integration with EigenLayer for Enhanced Yields**: 
-  - **Restaking**: Puffer integrates with EigenLayer, allowing validators to restake their ETH and participate in additional web3 infrastructure services. This increases the potential rewards by earning both Ethereum staking rewards and restaking rewards from EigenLayer, maximizing the earning potential for validators.
-
+ - [Puffer](https://www.puffer.fi/)  is a decentralized native liquid restaking protocol (nLRP) built on Eigenlayer 🐡🤝
+    
+    It makes [native restaking](https://docs.puffer.fi/protocol/puffer-modules/#native-restaking-) on [Eigenlayer](https://www.eigenlayer.xyz/) more accessible, allowing anyone to run an Ethereum Proof of Stake (PoS) validator while supercharging their rewards.
+  
 ### Understanding Risks Associated with Puffer
 
 1. **Smart Contract Risks**:
